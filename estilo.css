@@ -1,0 +1,434 @@
+*{
+   padding:0;
+   margin:0;
+   
+}
+.retangulo{
+     background-color: #f0f0f0;
+     height: 38px;
+     width: 100%;
+    
+
+}
+
+.ponto1{
+    visibility:hidden; /*deixei o ponto com essa visibilidade para ele desaparecer, não sei o pq mas tenho que colocar alguma letra
+                         para o backgrond color funcionar na div*/
+}
+
+
+.bandeiras{
+   padding: 0px;
+   float:right;
+   margin: -0.5rem 0px 0px 0px;
+   margin-right: 11rem;
+
+}
+
+
+.secao1{
+    background-color: #ffffff;
+    height: 8rem;
+    
+
+}
+
+.ponto2{
+    visibility:hidden; 
+
+}
+
+.imagens{
+     display:flex;
+     justify-content: space-between;
+     padding:1.5rem 30rem;
+     margin-right: -10rem;
+     
+
+}
+
+.inline{
+    display:inline-block;
+    padding-left: 5px;
+    position: absolute;
+    padding-top: 0.4rem;
+
+}
+
+
+h6{
+   font-size:1em;
+
+}
+
+.seletiva{
+      position:absolute;
+      left: 7rem;
+      top:4.7rem;
+    
+
+}
+
+.botoes{
+    background-color: grey;
+    border:solid grey;
+    display: inline-block;
+    padding: 10px;
+    margin: 0.03rem;
+    z-index: 1;
+}
+
+.caixa{
+     display: flex;
+     justify-content: center;
+     z-index: 1;
+     
+}
+
+
+.imgsele{
+    bottom:-41px;
+    position: relative;
+}
+
+
+.secao2{
+  width: 1473.6px;
+  height: 250px ;
+  position: relative;
+  background-color: #ffffff;
+  bottom: -2.2rem;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.apresent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.elemen{
+
+    margin: 0.8rem auto;
+}
+
+.caixa2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 24rem;
+
+}
+
+.textosele{
+    text-align: center;
+    
+}
+
+.caixatext{ 
+       position: absolute;
+       left: 30%;
+       top:5%;
+     
+}
+
+path{
+
+    color:green;
+}
+
+.textosele{
+
+     color: #50a751;
+
+}
+
+p{
+
+
+ color:#ff00cc;
+}
+
+
+.secao3{
+    background-color: #144923;
+    width: 1473.6px;
+    height: 201.4px;
+    position: relative;
+}
+
+
+
+.preto{
+    color: black;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(10%, 240%) 
+}
+
+.secao4{
+
+    background-color: #f0f0f0;
+    width:1473.6px ;
+    height:668.6px ;
+}
+
+.alg{
+
+    color:#ff4000;
+    text-align:center;
+    font-weight: 900;
+    font-size:25px;
+    margin-right: 15%;
+    transform: translate(10%, 140%) 
+   
+}
+
+
+.grid{
+ 
+    padding: 15px;
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    height: 75vh;
+    justify-content: center;
+}
+
+.grid div{
+    background-color: #ffffff;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+
+.secao5{
+    background-color:rgb(16, 111, 220);
+    width: 1480px;
+    height: 342.2px;
+}
+
+
+.text_sec{
+    font-size: 2.5rem;
+    text-align:center;
+    padding-top: 15px;
+}
+
+.fig{
+
+ color: rgb(0, 0, 0);
+}
+
+.branc{
+  color:rgb(255, 255, 255);
+
+}
+
+
+.secao6{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 3rem 1.5rem;
+}
+
+.fig3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.secao7{
+    height:262px;
+    width: 1480px;
+    background-color: rgb(255, 253, 253);
+    display:flex;
+    flex-direction: row;
+}
+
+.empre{
+
+    border:solid 1px black;
+    display: flex;  
+    width: 212px;
+    height: 212px;
+    background-color: #ffffff;
+    align-content: center;
+    align-items: center;
+    padding-left:15px ;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 0.5px;
+}
+
+.empre1{
+    width: 212px;
+    height: 212px;
+    background-color: #ffffff;
+    border:solid 1px black;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    box-sizing: border-box;
+    margin: 0.5px;
+    border-radius: 3px;
+}
+
+.empre2{
+    width: 212px;
+    height: 212px;
+    background-color: #ffffff;
+    border:solid 1px black;
+    display:flex;
+    align-items: center;
+    padding-left: 39px;
+    box-sizing: border-box;
+    margin: 0.5px;
+    border-radius: 3px;
+}
+
+
+.caixa8{ 
+     display: flex;
+     margin-top:32px ;
+     margin-left: 190px;
+     
+}
+
+.secao8{
+    width:1480px;
+    height: 480.2px ;
+    background-color: #144923;
+}
+
+
+.time{
+    color: #ffffff;
+    text-align: center;
+    padding-top:30px;
+    
+}
+
+
+.fotos{
+    display:flex;
+    padding: 5rem 7rem;
+}
+
+.op{
+    margin: 0rem 0.1rem;
+    display: block;
+}
+
+.duv{
+   background-color: #ffffff;
+
+}
+
+.i{
+   font-size:1rem;
+   text-align: center;
+
+}
+
+.secao9{
+    background-color:white;
+    width: 1480px;
+    height: 394.6px;
+
+}
+
+
+.ip{
+    text-align: center;
+    margin-top: 18px;
+}
+
+.cards{
+    display:flex;
+    padding: 2rem 15rem;
+
+}
+
+.tuf{
+    background-color: #ff4000;
+
+}
+
+.li{
+   text-align: center;
+   font-size: 1rem;
+
+}
+
+.po{
+
+    margin: 0.3rem;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 1rem;
+    background-color: #453e3e;
+    width: 1480px;
+    height: 100px;
+}
+
+.soci{
+    color:white;
+   
+}
+.imp{
+   border:solid 1px black;
+   width: 32px;
+   height: 32px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.social{
+    display:flex;
+    
+}
+
+.lu{
+    color:grey;
+    margin: 15px 0px;
+}
+
+.copy{
+    display: flex;
+    background-color: black;
+    width: 1480px;
+    height: 45 ;
+}
+
+
+.t{
+    color:white;
+}
