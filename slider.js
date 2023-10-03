@@ -20,4 +20,3 @@
 
 // document.getElementById("caixa").style.position = "fixed";
 
-translator.lang("pt"); //change to Portuguese
