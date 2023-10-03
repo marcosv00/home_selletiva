@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-
 }
 
 body {
@@ -14,7 +13,6 @@ body {
     height: 2.5rem;
     width: 200%;
 }
-
 
 .bandeiras {
     padding: 0rem;
@@ -32,8 +30,18 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 2.8rem 1rem;
-    gap:30%;
+}
 
+.whatsapp{
+  display: flex;
+}
+
+.telefone{
+    display: flex;
+}
+
+.email{
+   display: flex;
 }
 
 .preto {
@@ -41,16 +49,12 @@ body {
 }
 
 .texto {
-    display: inline-block;
-    padding-left: 5px;
-    position: absolute;
+    display: inline;
     padding-top: 0.4rem;
-
 }
 
 h6{
     font-size: 1em;
-
 }
 
 .caixa_botoes {
@@ -59,7 +63,6 @@ h6{
     z-index: 1;
     margin-right: -95%;
     margin-top: -1rem;
-
 }
 
 .botoes {
@@ -69,7 +72,6 @@ h6{
     padding: 0.5rem;
     margin: 0.1rem;
     z-index: 1;
-
 }
 
 
@@ -102,7 +104,6 @@ h6{
     display: flex;
     justify-content: space-between;
     padding: 4.5rem 24rem;
-
 }
 
 
@@ -110,30 +111,23 @@ h6{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .apresentacao {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .elementosecao2 {
-
     margin: 0.01rem auto;
 }
 
 path {
-
     color: green;
 }
 
-
 .p {
-
-
     color: #ff00cc;
 }
 
@@ -150,11 +144,9 @@ path {
 h1 {
     text-align: center;
     color: rgb(255, 255, 255);
-
 }
 
 .secao4 {
-
     background-color: #f0f0f0;
     width: 200%;
     height: 668.6px;
@@ -171,7 +163,6 @@ h1 {
 
 
 .css_grid {
-
     padding: 1rem;
     margin-top: 50px;
     display: grid;
@@ -187,8 +178,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .secao5 {
@@ -211,21 +200,17 @@ h1 {
 }
 
 .div_img_secao5 {
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .img_secao5 {
-
     color: rgb(0, 0, 0);
-
 }
 
 .texto_img_secao5 {
     color: rgb(255, 255, 255);
-
 }
 
 .secao6 {
@@ -241,12 +226,9 @@ h1 {
 .div_empresas {
     display: flex;
     margin-top: 0.5rem;
-
-
 }
 
 .empresa {
-
     border: solid 1px black;
     display: flex;
     width: 212px;
@@ -297,7 +279,6 @@ h1 {
     color: #ffffff;
     text-align: center;
     padding-top: 30px;
-
 }
 
 .div_fotos_funcionarios {
@@ -314,13 +295,11 @@ h1 {
 
 .nome_pessoas {
     background-color: #ffffff;
-
 }
 
 .h2_secao7 {
     font-size: 1rem;
     text-align: center;
-
 }
 
 .secao8 {
@@ -369,7 +348,6 @@ footer {
 
 .rede_social {
     display: flex;
-
 }
 
 .div_img_redesocial {
@@ -385,7 +363,6 @@ footer {
 
 .cor_redesocial {
     color: white;
-
 }
 
 .footer_endereco {
