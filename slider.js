@@ -1,22 +1,13 @@
-// let count = 1;
-// document.getElementById("radio1").checked = true;
+window.onscroll = function() {myFunction()};
 
+var navbar = document.getElementById("menu","botoes");
+var sticky = navbar.offsetTop;
 
-// setInterval(function(){
-//     nextImage();
-// },4000)
-
-// function nextImage(){
-
-//     count++;
-//     if(count>6){
-//         count = 1;
-//     }
-
-
-//      document.getElementById("radio"+count).checked = true;
-
-// }
-
-// document.getElementById("caixa").style.position = "fixed";
+function myFunction() {
+  if (window.scrollY >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 
