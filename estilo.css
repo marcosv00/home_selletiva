@@ -4,27 +4,27 @@
 }
 
 body {
-    width: 100vh;
+    width: 90vh;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .div_bandeiras {
-    background-color: #f0f0f0;
+    background-color: #e7e7e7;
     height: 2.5rem;
-    width: 200%;
+    width: 220%;
 }
 
 .bandeiras {
     padding: 0rem;
-    float: right;
-    margin: 0.6rem 0rem 0rem 0rem;
-    margin-right: 11rem;
+    margin: 0.6rem 0rem 0rem 71.9%;
+    position: absolute;
 }
 
 .secao1 {
     background-color: #ffffff;
     height: 130px;
-    width: 200%;
+    width: 220%;
 }
 
 .imagens {
@@ -114,7 +114,7 @@ ul.sticky li{
 }
 
 .secao2 {
-    width: 200%;
+    width: 220%;
     height: 230px;
     position: relative;
     background-color: #ffffff;
@@ -134,8 +134,9 @@ ul.sticky li{
 
 .divsecao2 {
     display: flex;
-    justify-content: space-between;
-    padding: 2.9rem 24rem;
+    justify-content: center;
+    padding: 2.9rem 0rem;
+    gap:15rem;
 }
 
 
@@ -166,7 +167,7 @@ path {
 
 .secao3 {
     background-color: #144923;
-    width: 200%;
+    width: 220%;
     height: 201.4px;
     position: relative;
     display: flex;
@@ -182,7 +183,7 @@ h1 {
 
 .secao4 {
     background-color: #ffffff;
-    width: 200%;
+    width: 220%;
     height: 668.6px;
 }
 
@@ -216,7 +217,7 @@ h1 {
 
 .secao5 {
     background-color: rgb(15, 77, 63);
-    width: 200%;
+    width: 220%;
     height: 342.2px;
 }
 
@@ -251,7 +252,7 @@ h1 {
 
 .secao6 {
     height: 262px;
-    width: 200%;
+    width: 220%;
     background-color: rgb(255, 253, 253);
     display: flex;
     align-items: center;
@@ -284,7 +285,7 @@ h1 {
 }
 
 .secao7 {
-    width: 200%;
+    width: 220%;
     height: 400px;
     background-color:rgb(15, 77, 63);
 }
@@ -320,7 +321,7 @@ h1 {
 
 .secao8 {
     background-color: rgb(253, 253, 253);
-    width: 200%;
+    width: 220%;
     height: 350px;
 
 }
@@ -367,7 +368,7 @@ footer {
     justify-content: space-around;
     padding: 3rem 40px;
     background-color: #343a40;
-    width: 200%;
+    width: 220%;
     height: 100px;
 }
 
@@ -399,7 +400,7 @@ footer {
 .div_copyright{
     display: flex;
     background-color: #1a1919;
-    width: 200%;
+    width: 220%;
     height: 30px;
 }
 
