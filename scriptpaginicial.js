@@ -18,16 +18,43 @@ btn.addEventListener("click", function() {
 });
 
 document.addEventListener('scroll',ocultar)
-
-function ocultar(){
-    if(window.scrollY > 1600){
-      btn.style.display = "flex"
-      
-    } else {
-      btn.style.display = "none"
-    }
+document.addEventListener(anima)
+document.addEventListener(desanima)
+function anima(){
+  if(window.scrollY > 1450){
+    btn.style.transition = "linear 0.3s"
+    btn.style.padding = "20px"
+  } else {
+    btn.style.transition = "0.5s"
+    btn.style.bottom = "18px"
+  }
+  
 
 }
 
-ocultar()
+function desanima(){
+  if(window.scrollY > 1450){
+    btn.style.transition = "linear 0.3s"
+    
+  } else {
+    btn.style.bottom = "18px"
+  }
+}
+function ocultar(){
+
+    if(window.scrollY > 1450){
+      btn.style.display = "flex";
+      anima()
+    } else {
+      btn.style.display = "none";
+      desanima()
+    }
+    
+
+}
+
+
+
+
+
 

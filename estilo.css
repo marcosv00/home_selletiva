@@ -97,6 +97,7 @@ ul.sticky li{
 
 .menu{
     text-decoration-line: none;
+    z-index: 100000;
 }
 
 .botoes {
@@ -107,6 +108,7 @@ ul.sticky li{
     margin: 0.1rem;
     opacity: 0.9;
     list-style: none;
+    z-index: 100000;
 }
 
 .link_text_botoes{
@@ -114,6 +116,7 @@ ul.sticky li{
     font-size:1.1rem;
     opacity: 1;
     text-decoration-line: none;
+    z-index: 1;
 }
 
 .botoes:hover{
@@ -222,6 +225,7 @@ h1 {
     grid-template-columns: 20rem 20rem 20rem;
     height: 80%;
     justify-content: center;
+    z-index: 0;
     
 }
 
@@ -234,6 +238,7 @@ h1 {
     justify-content: center;
     transition: all 0.5s;
     opacity: 0.7;
+    z-index: 0;
 }
 
 .css_grid a:hover{
@@ -423,6 +428,11 @@ footer {
     
 }
 
+.div_img_redesocial:hover{
+    background-color:rgb(197, 245, 175);
+    transition:0.5s;
+}
+
 .cor_redesocial {
     color: white;
 }
@@ -458,8 +468,12 @@ footer {
     padding: 0.6rem;
     font-weight: bold;
     border-radius: 3%;
+    
+    
   }  
-
+ 
+ 
+  
   button{
      background-color: #0a8b06;
      border: #0a8b06;
@@ -468,3 +482,6 @@ footer {
   .branc{
     color:white
   }
+
+  
+  
