@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -221,15 +222,24 @@ h1 {
     grid-template-columns: 20rem 20rem 20rem;
     height: 80%;
     justify-content: center;
+    
 }
 
-.css_grid div {
-    background-color: #ffffff;
+.css_grid a {
+    background-color:rgb(186, 255, 186);
     padding: 20px;
     border: 1px solid rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
+    opacity: 0.7;
+}
+
+.css_grid a:hover{
+    border: 5px solid #022d09;
+    border-radius: 15%;
+    opacity: 1;
 }
 
 .secao5 {
@@ -243,6 +253,7 @@ h1 {
     font-size: 2.5rem;
     text-align: center;
     padding-top: 15px;
+    
 }
 
 .conteudosecao5 {
@@ -251,6 +262,7 @@ h1 {
     justify-content: center;
     padding: 3rem 1rem;
     gap:60px;
+    
 }
 
 .div_img_secao5 {
@@ -380,7 +392,10 @@ h1 {
     font-size: 1rem;
 
 }
-
+.k{
+    text-decoration: none;
+    color:white; 
+}
 footer {
     display: flex;
     justify-content: center;
@@ -434,3 +449,22 @@ footer {
 .text_h2_endereco{
     color:white;
 }
+
+#back-to-top {
+    position: fixed;
+    bottom: 18px;
+    right: 20px;
+    color: white;
+    padding: 0.6rem;
+    font-weight: bold;
+    border-radius: 3%;
+  }  
+
+  button{
+     background-color: #0a8b06;
+     border: #0a8b06;
+  } 
+
+  .branc{
+    color:white
+  }
