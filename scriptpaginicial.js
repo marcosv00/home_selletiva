@@ -33,11 +33,12 @@ function anima(){
 }
 
 function desanima(){
-  if(window.scrollY > 1450){
+  if(window.scrollY < 1450){
     btn.style.transition = "linear 0.3s"
-    
-  } else {
     btn.style.bottom = "18px"
+    btn.style.padding = "2px"
+  } else {
+
   }
 }
 function ocultar(){
