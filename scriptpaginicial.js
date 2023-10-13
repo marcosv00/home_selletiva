@@ -25,15 +25,13 @@ function anima(){
     btn.style.padding = "30px"
     btn.style.opacity = "1"
   } else {
-    btn.style.display = "none"
+    
   }
   
 
 }
 
-function tao(){
-  btn.style.display = "none"
-}
+
 
 function desanima(){
   if(window.scrollY < 1450){
@@ -49,7 +47,7 @@ function desan(){
   if(window.scrollY < 1000){
        btn.style.display = 'none'
   } else {
-
+    
   }
 }
 

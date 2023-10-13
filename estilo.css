@@ -443,7 +443,7 @@ footer {
 }
 
 .div_copyright{
-    display: flex;
+
     background-color: #1a1919;
     width: 220%;
     height: 30px;
@@ -452,12 +452,21 @@ footer {
 .texto_copyright {
     color: white;
     font-size: 10px;
-    padding-top: 0.6rem;
-    padding-left: 11rem;
+}
+
+.subtext{
+   display: flex;
+   border:solid 2px #0a8b06;
+   margin-left: 52vmin ;
+   width: 280px;
+   justify-content: flex-start;
+   height: 10px;
+   
 }
 
 .text_h2_endereco{
     color:white;
+    
 }
 
 #back-to-top {
@@ -469,11 +478,10 @@ footer {
     font-weight: bold;
     border-radius: 3%;
     
-    
   }  
- 
- 
   
+
+
   button{
      background-color: #0a8b06;
      border: #0a8b06;
@@ -483,5 +491,6 @@ footer {
     color:white
   }
 
+  
   
   
