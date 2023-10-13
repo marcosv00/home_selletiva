@@ -18,37 +18,54 @@ btn.addEventListener("click", function() {
 });
 
 document.addEventListener('scroll',ocultar)
-document.addEventListener(anima)
-document.addEventListener(desanima)
+
 function anima(){
   if(window.scrollY > 1450){
     btn.style.transition = "linear 0.3s"
-    btn.style.padding = "20px"
+    btn.style.padding = "30px"
+    btn.style.opacity = "1"
   } else {
-    btn.style.transition = "0.5s"
-    btn.style.bottom = "18px"
+    btn.style.display = "none"
   }
   
 
 }
 
+function tao(){
+  btn.style.display = "none"
+}
+
 function desanima(){
   if(window.scrollY < 1450){
-    btn.style.transition = "linear 0.3s"
-    btn.style.bottom = "18px"
-    btn.style.padding = "2px"
+    btn.style.transition = "linear 0.2s"
+    btn.style.bottom = "0px"
+    btn.style.opacity = "0"
   } else {
 
   }
 }
+
+function desan(){
+  if(window.scrollY < 1000){
+       btn.style.display = 'none'
+  } else {
+
+  }
+}
+
+
+
 function ocultar(){
 
     if(window.scrollY > 1450){
       btn.style.display = "flex";
       anima()
     } else {
-      btn.style.display = "none";
+      btn.style.transition = "linear 0.3s"
       desanima()
+      desan()
+     
+
     }
     
 
