@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,6 +10,8 @@ body {
     width: 94vh;
     height: 100%;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .div_bandeiras {
@@ -429,7 +433,7 @@ footer {
 }
 
 .div_img_redesocial:hover{
-    background-color:rgb(197, 245, 175);
+    background-color:rgb(49, 110, 21);
     transition:0.5s;
 }
 
@@ -447,16 +451,18 @@ footer {
     background-color: #1a1919;
     width: 220%;
     height: 30px;
+
 }
 
 .texto_copyright {
     color: white;
     font-size: 10px;
+    margin-top: 0.6rem;
+    margin-left: -7%;
 }
 
 .subtext{
    display: flex;
-   border:solid 2px #0a8b06;
    margin-left: 52vmin ;
    width: 280px;
    justify-content: flex-start;
@@ -471,10 +477,8 @@ footer {
 
 #back-to-top {
     position: fixed;
-    bottom: 18px;
     right: 20px;
     color: white;
-    padding: 0.6rem;
     font-weight: bold;
     border-radius: 3%;
     
@@ -488,7 +492,7 @@ footer {
   } 
 
   .branc{
-    color:white
+    color:white;
   }
 
   

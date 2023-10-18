@@ -18,11 +18,15 @@ btn.addEventListener("click", function() {
 });
 
 document.addEventListener('scroll',ocultar)
+document.addEventListener(anima)
+document.addEventListener(desanima)
+
 
 function anima(){
   if(window.scrollY > 1450){
     btn.style.transition = "linear 0.3s"
-    btn.style.padding = "30px"
+    btn.style.padding = "25px"
+    btn.style.display = "flex";
     btn.style.opacity = "1"
   } else {
     
@@ -35,23 +39,15 @@ function anima(){
 
 function desanima(){
   if(window.scrollY < 1450){
-    btn.style.transition = "linear 0.2s"
+    btn.style.transition = "linear 0.3s"
     btn.style.bottom = "0px"
     btn.style.opacity = "0"
-  } else {
-
-  }
-}
-
-function desan(){
-  if(window.scrollY < 1000){
-       btn.style.display = 'none'
-  } else {
     
+  } 
+  if(window.scrollY < 1300){
+    btn.style.display = "none";
   }
 }
-
-
 
 function ocultar(){
 
@@ -59,11 +55,7 @@ function ocultar(){
       btn.style.display = "flex";
       anima()
     } else {
-      btn.style.transition = "linear 0.3s"
       desanima()
-      desan()
-     
-
     }
     
 
