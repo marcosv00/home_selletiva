@@ -61,6 +61,11 @@ function ocultar(){
 
 }
 
+function myFunction(){
+    var navbar = document.getElementById('menu');
+    navbar.classList.toggle('show');
+}
+
 
 
 
