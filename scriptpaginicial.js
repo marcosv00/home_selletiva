@@ -1,11 +1,11 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function(){myFunction()};
 
-var navbar = document.getElementById("menu","botoes");
+var navbar = document.getElementById("menu");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.scrollY >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
   }
@@ -61,10 +61,12 @@ function ocultar(){
 
 }
 
-function myFunction(){
-    var navbar = document.getElementById('menu');
-    navbar.classList.toggle('show');
+
+function myFuncti(){
+  var navbar = document.getElementById('menu');
+  navbar.classList.toggle('show');
 }
+
 
 
 
