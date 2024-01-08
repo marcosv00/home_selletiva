@@ -497,7 +497,6 @@ footer {
 }
 
 .toggle-btn span{
-     display:inline-block;
      width:100%;
      height:2px;
      background-color:#000000 ;
@@ -519,6 +518,15 @@ footer {
 
   /*inicialização de media querys*/
   @media screen and (max-width:760px){
+        body{
+          width: 99%;
+        
+        }
+       .imagens{
+        margin-left: 20rem;
+        padding-top: 3.5rem;
+       }
+
         .div_bandeiras{
             width: 300rem;
         }
@@ -542,7 +550,8 @@ footer {
 
          ul.show{
              display:block;
-          
+             margin-left: 104rem;
+             margin-top: 10rem;
              
          }
           
