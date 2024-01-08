@@ -1,24 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');/*eu importei uma fonte do google fonts e coloquei no meu arquivo css*/
 
 * {
-    padding: 0;
+    padding: 0; /*o corpo do html tem uma margem padrao e padding padrao e elas precisam ser zeradas para não atrapalhgar no seu projeto*/
     margin: 0;
     scroll-behavior: smooth;
 }
 
+/*no corpo do html eu defini uma altura e largura para ele*/
 body {
     width: 47%;
     height: 100%;
-    overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
-    
+    overflow-x: hidden;/*a barra horizontal de rolagem não existe mais no teu projeto*/
+    font-family: 'Roboto', sans-serif;/*coloquei uma fonte para todos os textos que eu inserisse no meu projeto*/
 }
 
+
 .div_bandeiras {
-    background-color: #e7e7e7;
-    height: 2.5rem;
-    width: 220%;
+    background-color: #e7e7e7;/*definir uma cor para o background da parte das bandeireas*/
+    height: 2.5rem;/*defini uma altura*/
+    width: 220%;/*defini uma largura*/
 }
+
 /*deixar fixo as bandeiras como estar no site original*/
 .bandeiras {
     width: 1rem;
@@ -26,11 +28,11 @@ body {
 }
 
 .sub_bandeiras{
-    display: flex;
-    justify-content:flex-end;
+    display: flex;/*Pensando nessa flexibilidade de posicionamento, as pessoas desenvolvedoras criaram um novo tipo de display: o display: flex;*/
+    justify-content:flex-end;/*Essa prorpiedade ajusta horizontalmente os elementos filhos do flex container*/
     padding:  0.6rem 0rem 0rem 3200%;
     margin-left: 100vh;
-    gap:0.5rem;
+    gap:0.5rem;/*A gappropriedade define o tamanho do intervalo entre as linhas e entre as colunas no flexbox, grid ou layout multicolunas. É uma abreviação para as seguintes propriedades:*/
 }
 
 .secao1 {
@@ -42,7 +44,7 @@ body {
 .imagens {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;/*A propriedade align-items CSS define o valor align-self em todos os filhos diretos como um grupo. No Flexbox, ele controla o alinhamento dos itens no Eixo Cruzado. */
     padding: 2.8rem 1rem;
     gap:5rem;
 }
@@ -76,7 +78,7 @@ body {
 .caixa_botoes {
     display: flex;
     justify-content: center;
-    z-index: 1;
+    z-index: 1;/*A propriedade CSS z-index define a ordem z de um elemento posicionado e seus descendentes ou itens flex e grid. Elementos sobrepostos com um índice z maior cobrem aqueles com um menor.*/
     margin-right: 1%;
     margin-top: -1rem;
 }
@@ -93,6 +95,7 @@ ul.sticky li{
     
 }
 
+/*adicionando propriedades ao sticky*/
 .sticky {
     position: fixed;
     top: 0;
@@ -100,7 +103,6 @@ ul.sticky li{
 }
 
 .menu{
-    text-decoration-line: none;
     z-index: 100000;
 }
 
@@ -111,7 +113,6 @@ ul.sticky li{
     padding: 0.5rem;
     margin: 0.1rem;
     opacity: 0.9;
-    list-style: none;
     z-index: 100000;
 }
 
@@ -119,14 +120,15 @@ ul.sticky li{
     color:white;
     font-size:1.1rem;
     opacity: 1;
-    text-decoration-line: none;
+    text-decoration-line: none;/*A propriedade CSS text-decoration-line define o tipo de decoração usada no texto em um elemento, como um sublinhado ou uma sobreposição.*/
     z-index: 1;
 }
 
+/*No CSS, o Hover CSS faz parte do conjunto de palavras-chave utilizadas pelas pseudo-classes da linguagem de estilos e serve para adicionar características a um elemento quando a pessoa usuária posiciona o mouse sobre ele. */
 .botoes:hover{
    background-color: #67ce84;
    border:1px solid #67ce84;
-   transition: 0.3s;
+   transition: 0.3s;/*As transições CSS permitem que você altere os valores de propriedade suavemente, ao longo de uma determinada duração.*/
 }
 
 
@@ -178,7 +180,7 @@ ul.sticky li{
 
 .elementosecao2 {
     margin: 0.3rem auto;
-    text-decoration: none;
+    text-decoration: none;/*A propriedade CSS abreviada de decoração de texto define a aparência de linhas decorativas no texto. É uma abreviação para text-decoration-line, text-decoration-color, text-decoration-style e a mais recente propriedade text-decoration-thickness.*/
 }
 
 .elementosecao2img {
@@ -220,12 +222,13 @@ ul.sticky li{
     transform: translate(10%, 125%)
 }
 
-
+/*utilizei a tecnlogia css grid*/
+/*CSS Grid Layout introduz um sistema bi-dimensional de grid (literalmente "grades") para CSS. Grids podem ser usados para o design de layouts de grandes seções de uma webpage, assim como de pequenos elementos de interface. */
 .css_grid {
     padding: 1rem;
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: 20rem 20rem 20rem;
+    display: grid;/*// Torna o elemento um grid container.*/
+    grid-template-columns: 20rem 20rem 20rem;/*A propriedade CSS grid-template-columns define os nomes de linha e as funções de dimensionamento de controle das colunas de grade.*/
     height: 80%;
     justify-content: center;
     z-index: 0;
@@ -475,6 +478,7 @@ footer {
     
 }
 
+/*estilizei o botstrap de determinados elementos*/
 #back-to-top {
     position: fixed;
     right: 20px;
@@ -512,6 +516,8 @@ footer {
     margin-left: 0.8rem;
     display: none;
   }
+
+  /*inicialização de media querys*/
   @media screen and (max-width:760px){
         .div_bandeiras{
             width: 300rem;
