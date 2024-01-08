@@ -1,0 +1,1 @@
+Esse projeto que eu fiz tem o objetivo de deixar ele mais dinâmico fazendo com que esse site se adpte a várias telas de diferentes tamanhos que no site original não se adptava quando mudava as dimensões horizontais e verticais da tela ocorrendo então erros de posicionamento dos elementos html do site original.
