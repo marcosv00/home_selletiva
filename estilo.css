@@ -66,7 +66,6 @@ body {
 }
 
 .texto {
-    display: inline;
     padding-top: 0.4rem;
     padding-left: 0.31rem;
 }
@@ -281,6 +280,7 @@ ul.sticky li{
     flex-direction: column;
     align-items: center;
     text-align: center;
+
 }
 
 .img_secao5 {
@@ -349,10 +349,12 @@ ul.sticky li{
 .pessoas {
     margin: 0rem 0.1rem;
     display: block;
+    
 }
 
 .nome_pessoas {
     background-color: #ffffff;
+
 }
 
 .h2_secao7 {
@@ -519,16 +521,62 @@ footer {
   /*inicialização de media querys*/
   @media screen and (max-width:760px){
         body{
-          width: 99%;
+          width: 47%;
         
         }
+        .textosecao2{
+            font-size:1rem;
+            margin-top: 1rem;
+        }
+        .texto_secao3{
+            font-size:1.1rem;
+        }
+        .texto{
+            font-size: 5px ;
+        }
+        .img_selletiva_mobile{
+            width: 95px;
+            height: 40px;
+          
+
+        }
+    .tiu{
+        width: 30px;
+        height: 20px;
+    }
+    .liu{
+        width:30px;
+        height:20px;
+    }
+    .piu{
+        width:30px;
+        height: 20px;
+    }
+        .telefone{
+            width: 70px;
+            height: 50px;
+            display: block;
+        }
+        .whatsapp{
+            width: 75px;
+            height: 50px;
+            display: block;
+        }
+        .email{
+            width: 160px;
+            height: 48px;
+            display: block;
+        }
        .imagens{
-        margin-left: 20rem;
+        margin-left: -20rem;
         padding-top: 3.5rem;
+        gap: 20px;
+        width: 1px;
        }
 
         .div_bandeiras{
             width: 300rem;
+            margin-left: -50rem;
         }
         
         .secao1{
@@ -538,10 +586,18 @@ footer {
 
         .bandeiras{
             width:3vh;
+            margin-left:-13rem;
         }
-
+.s{
+    display: flex;
+     margin-top: -2rem;
+    margin-left: -2rem;
+}
          .toggle-btn{
             display: block;
+            width: 2rem;
+            height: 2rem;
+           
          }
 
          ul{
@@ -550,8 +606,8 @@ footer {
 
          ul.show{
              display:block;
-             margin-left: 104rem;
-             margin-top: 10rem;
+             margin-left: 24rem;
+             margin-top: 9rem;
              
          }
           
@@ -566,6 +622,123 @@ footer {
                color:black;
                
          }
+        .css_grid{
+            grid-template-columns: 8rem 8rem 8rem ;
+            height: 60%;
+            margin-top: 70px;
+            
+        }
+        .css_grid a{
+            padding: 5px;
+            font-size: 10px;
+            text-align: center;
+        }
+        .texto_img_secao5{
+            font-size:0.6rem;
+        }
+        .conteudosecao5{
+            gap:3rem;
+        }
+        .empresa{
+            width: 120px;
+            height: 120px;
+        }
+        .pessoas{
+            width: 180px;
+            height: 100px;
+            margin-top: 76px;
 
-    
+        }
+      .div_fotos_funcionarios{
+        margin-top:-75px;
+      }
+
+    .po{
+        width: 140px;
+        height: 140px;
+    }
+     .divsecao2{
+        gap: 40px;
+     }
+     .qo{
+        width: 40px;
+        height: 40px;
+     }
+     .elementosecao2{
+       font-size: 18px;
+     }
+ .texto_secao3{
+    font-size: 18px;
+    width: 400px;
+ }
+ .textosecao5{
+     font-size:24px;
+ }
+ .ki{
+    width: 30px ;
+    height: 30px ;
+ }
+ .conteudosecao5{
+    flex-direction: column;
+ }
+ .secao5{
+    height: 540px;
+ }
+ .div_empresas{
+    flex-direction: column;
+ }
+ .secao6{
+    height: 700px;
+ }
+ .img_empresa1{
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+ }
+ .img_empresa2{
+    width:75px ;
+    height:75px ;
+    padding-left: 10px;
+ }
+ .img_empresa3{
+    width: 89px;
+    height: 26px;
+ }
+ .img_empresa4{
+    width: 89px;
+    height: 31px;
+ }
+ .img_empresa5{
+    width: 89px;
+    height: 66px;
+ }
+.div_fotos_funcionarios {
+    flex-direction: column;
+}
+.secao7 {
+    height: 1000px;
+}
+.nome_pessoas{
+    width: 140px;
+}
+.h2_secao7{
+   font-size: 15px;
+}
+.butao_voltar_ao_topo{
+    display: none;
+
+}
+.ji{
+    display: none;
+}
+.texto_copyright{
+ margin-left: -45%;
+}
+.produtossec8{
+    flex-direction: column;
+}
+.secao8{
+    height: 1250px;
+}
+
   }
