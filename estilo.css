@@ -465,7 +465,7 @@ footer {
     margin-top: 0.6rem;
     margin-left: -7%;
 }
-
+n
 .subtext{
    display: flex;
    margin-left: 52vmin ;
@@ -522,7 +522,7 @@ footer {
   @media screen and (max-width:760px){
         body{
           width: 47%;
-        
+          touch-action: pan-y;
         }
         .textosecao2{
             font-size:1rem;
@@ -586,7 +586,7 @@ footer {
 
         .bandeiras{
             width:3vh;
-            margin-left:-13rem;
+            margin-left:-40rem;
         }
 .s{
     display: flex;
@@ -606,9 +606,9 @@ footer {
 
          ul.show{
              display:block;
-             margin-left: 24rem;
-             margin-top: 9rem;
-             
+             margin-left: -20rem;
+             margin-top: -2rem;
+             display: none;
          }
           
          .botoes{
@@ -714,6 +714,7 @@ footer {
  }
 .div_fotos_funcionarios {
     flex-direction: column;
+    margin-left: 3rem;
 }
 .secao7 {
     height: 1000px;
@@ -732,13 +733,20 @@ footer {
     display: none;
 }
 .texto_copyright{
- margin-left: -45%;
+ margin-left: 24%;
 }
 .produtossec8{
     flex-direction: column;
 }
 .secao8{
-    height: 1250px;
+    height: 1010px;
 }
-
+.produto{
+    margin-left: -4rem;
+   
+}
+.v{
+    width: 190px;
+    height: 190px;
+}
   }
