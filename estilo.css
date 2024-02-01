@@ -19,6 +19,7 @@ body {
     background-color: #e7e7e7;/*definir uma cor para o background da parte das bandeireas*/
     height: 2.5rem;/*defini uma altura*/
     width: 220%;/*defini uma largura*/
+
 }
 
 /*deixar fixo as bandeiras como estar no site original*/
@@ -575,8 +576,8 @@ n
        }
 
         .div_bandeiras{
-            width: 300rem;
-            margin-left: -50rem;
+            width: 43rem;
+        
         }
         
         .secao1{
@@ -586,7 +587,7 @@ n
 
         .bandeiras{
             width:3vh;
-            margin-left:-40rem;
+            margin-left:-81em;
         }
 .s{
     display: flex;
@@ -668,8 +669,8 @@ n
        font-size: 18px;
      }
  .texto_secao3{
-    font-size: 18px;
-    width: 400px;
+    font-size:0.9rem;
+    width: 22rem;
  }
  .textosecao5{
      font-size:24px;
