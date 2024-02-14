@@ -49,14 +49,18 @@ function desaparece(){
   }
 }
 
-function ocultar(){
 
+// esse função só sera executada se a largura da tela for maior que 580 em pixels
+function ocultar(){
+  if(window.innerWidth > 568){
     if(window.scrollY > 1450){
       btn.style.display = "flex";
       aparece()
     } else {
       desaparece()
     }
+}
+    
     
 
 }
@@ -66,6 +70,7 @@ function tela_celular(){
   var navbar = document.getElementById('menu');
   navbar.classList.toggle('show');
 }
+
 
 
 
