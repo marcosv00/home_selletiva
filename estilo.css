@@ -1300,7 +1300,7 @@ footer{
         touch-action: pan-y;
       }
       .textosecao2{
-          font-size:1rem;
+          font-size:0.9rem;
           margin-top: 1rem;
       }
       .texto_secao3{
@@ -1313,20 +1313,20 @@ footer{
           width: 95px;
           height: 40px;
           margin-top: -6rem;    
-          margin-left: 8.5rem;
+          margin-left: 8rem;
           position: absolute;
       }
   .tiu{
-      width: 28px;
-      height: 18px;
+      width: 16px;
+      height: 11px;
   }
   .liu{
-      width:28px;
-      height:18px;
+      width:16px;
+      height:11px;
   }
   .piu{
-      width:28px;
-      height: 18px;
+      width:16px;
+      height: 11px;
   }
       .telefone{
           width: 70px;
@@ -1344,7 +1344,7 @@ footer{
           
       }
      .imagens{
-      margin-left: -20.5rem;
+      margin-left: -21rem;
       padding-top: 6.5rem;
       gap: 1rem;
       width: 1px;
@@ -1401,7 +1401,7 @@ footer{
              
        }
       .css_grid{
-          grid-template-columns: 8rem 8rem 8rem ;
+          grid-template-columns: 7rem 7rem 7rem ;
           height: 60%;
           margin-top: 70px;
           margin-left:-0.85rem;
@@ -1447,7 +1447,7 @@ footer{
    }
 .texto_secao3{
   font-size:0.9rem;
-  width: 22rem;
+  width: 20rem;
 }
 .textosecao5{
    font-size:24px;
@@ -1515,6 +1515,7 @@ margin-left: 24%;
 }
 .produtossec8{
   flex-direction: column;
+  margin-left: -1.8rem;
 }
 .secao8{
   height: 1010px;
@@ -1571,20 +1572,23 @@ footer{
           width: 95px;
           height: 40px;
           margin-top: -6rem;    
-          margin-left: 8.5rem;
+          margin-left: 6.3rem;
           position: absolute;
       }
   .tiu{
       width: 28px;
       height: 18px;
+      display: none;
   }
   .liu{
       width:28px;
       height:18px;
+      display: none;
   }
   .piu{
       width:28px;
       height: 18px;
+      display: none;
   }
       .telefone{
           width: 70px;
@@ -1599,10 +1603,10 @@ footer{
       .email{
           width: 160px;
           height: 48px;
-          
+
       }
      .imagens{
-      margin-left: -20.5rem;
+      margin-left: -23rem;
       padding-top: 6.5rem;
       gap: 1rem;
       width: 1px;
@@ -1659,7 +1663,7 @@ footer{
              
        }
       .css_grid{
-          grid-template-columns: 8rem 8rem 8rem ;
+          grid-template-columns: 6rem 6rem 6rem ;
           height: 60%;
           margin-top: 70px;
           margin-left:-0.85rem;
@@ -1697,15 +1701,15 @@ footer{
       gap: 40px;
    }
    .qo{
-      width: 40px;
-      height: 40px;
+      width: 25px;
+      height: 25px;
    }
    .elementosecao2{
-     font-size: 18px;
+     font-size: 1rem;
    }
 .texto_secao3{
-  font-size:0.9rem;
-  width: 22rem;
+  font-size:0.8rem;
+  width: 17rem;
 }
 .textosecao5{
    font-size:24px;
@@ -1769,10 +1773,11 @@ footer{
   display: none;
 }
 .texto_copyright{
-margin-left: 24%;
+margin-left: 19%;
 }
 .produtossec8{
   flex-direction: column;
+  margin-left: -3rem;
 }
 .secao8{
   height: 1010px;
