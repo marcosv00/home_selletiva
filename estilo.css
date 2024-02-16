@@ -630,7 +630,7 @@ n
             grid-template-columns: 8rem 8rem 8rem ;
             height: 60%;
             margin-top: 70px;
-            
+            margin-left:-0.85rem;
         }
         .css_grid a{
             padding: 5px;
