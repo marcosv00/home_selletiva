@@ -1814,3 +1814,757 @@ footer{
 }
 
   }
+
+
+  @media only screen and (max-width: 1024px) and (min-width: 1023px)  {
+    body{
+        width: 47%;
+        touch-action: pan-y;
+      }
+      .textosecao2{
+          font-size:1rem;
+          margin-top: 1rem;
+      }
+      .texto_secao3{
+          font-size:1.1rem;
+      }
+      .aumentartamanho_h6{
+          font-size: 0.7rem ;
+          width: 5rem;
+      }
+      .img_selletiva_mobile{
+          width: 95px;
+          height: 40px;
+           
+        
+          
+      }
+  .tiu{
+      width: 56px;
+      height: 26px;
+      
+  }
+  .liu{
+      width:56px;
+      height:26px;
+      
+  }
+  .piu{
+      width:56px;
+      height: 26px;
+  }
+      
+     .imagens{
+      margin-left: 1rem;
+      padding-top: 6.5rem;
+      gap: 3rem;
+      width: 1px;
+      position: absolute;
+  
+     }
+
+      .div_bandeiras{
+          width: 64rem;
+      
+      }
+      
+      .secao1{
+         width: 0.5rem;
+         margin-left:30rem;
+      }
+
+      .bandeiras{
+          width:3vh;
+          margin-left:-59rem;
+      }
+.s{
+  display: flex;
+   margin-top: -2rem;
+  margin-left: -2rem;
+}
+       .toggle-btn{
+          display: block;
+          width: 2rem;
+          height: 2rem;
+          margin-left: -0.5rem;
+       }
+
+       ul{
+          display:none;
+       }
+
+       ul.show{
+           display:block;
+           margin-left: -20rem;
+           margin-top: -2rem;
+           display: none;
+       }
+        
+       .botoes{
+          border:none;
+          display: flex;
+          align-items: center;
+          justify-content: right;
+       }
+
+       .link_text_botoes{
+             color:black;
+             
+       }
+      .css_grid{
+          grid-template-columns: 11rem 11rem 11rem ;
+          height: 60%;
+          margin-top: 70px;
+          margin-left:1rem;
+      }
+      .css_grid a{
+          padding: 5px;
+          font-size: 10px;
+          text-align: center;
+      }
+      .texto_img_secao5{
+          font-size:0.6rem;
+      }
+      .conteudosecao5{
+          gap:3rem;
+      }
+      .empresa{
+          width: 120px;
+          height: 120px;
+      }
+      .pessoas{
+          width: 180px;
+          height: 100px;
+          margin-top: 76px;
+
+      }
+    .div_fotos_funcionarios{
+      margin-top:-75px;
+    }
+
+  .po{
+      width: 140px;
+      height: 140px;
+  }
+   .divsecao2{
+      gap: 40px;
+   }
+   .qo{
+      width: 25px;
+      height: 25px;
+   }
+   .elementosecao2{
+     font-size: 1rem;
+   }
+.texto_secao3{
+  font-size:0.8rem;
+  width: 30rem;
+}
+.textosecao5{
+   font-size:24px;
+}
+.ki{
+  width: 30px ;
+  height: 30px ;
+}
+.conteudosecao5{
+  flex-direction: column;
+}
+.secao5{
+  height: 540px;
+}
+.div_empresas{
+  flex-direction: column;
+}
+.secao6{
+  height: 700px;
+}
+.img_empresa1{
+  width: 60px;
+  height: 60px;
+  padding-left: 18px;
+}
+.img_empresa2{
+  width:75px ;
+  height:75px ;
+  padding-left: 10px;
+}
+.img_empresa3{
+  width: 89px;
+  height: 26px;
+}
+.img_empresa4{
+  width: 89px;
+  height: 31px;
+}
+.img_empresa5{
+  width: 89px;
+  height: 66px;
+}
+.div_fotos_funcionarios {
+  flex-direction: column;
+  margin-left: 3rem;
+}
+.secao7 {
+  height: 1000px;
+}
+.nome_pessoas{
+  width: 140px;
+}
+.h2_secao7{
+ font-size: 15px;
+}
+
+.texto_copyright{
+margin-left: 40%;
+}
+.produtossec8{
+  flex-direction: column;
+  margin-left: 5rem;
+}
+.secao8{
+  height: 1010px;
+}
+.produto{
+  margin-left: -4rem;
+ 
+}
+.v{
+  width: 190px;
+  height: 190px;
+}
+footer{
+  height: 200px;
+}
+.opa{
+  margin-left: -39rem;
+}
+.text_h2_endereco{
+  font-size: 10px;
+}
+.footer_endereco{
+ font-size:7px;
+}
+.m{
+  width: 10px;
+}
+.rede_social{
+  margin-left: -5rem;
+}
+.div_img_redesocial{
+  width: 2rem;
+  height: 2rem;
+}
+
+  }
+
+  @media only screen and (max-width: 688px) and (min-width: 687px)  {
+    body{
+        width: 47%;
+        touch-action: pan-y;
+      }
+      .textosecao2{
+          font-size:1rem;
+          margin-top: 1rem;
+      }
+      .texto_secao3{
+          font-size:1.1rem;
+      }
+      .aumentartamanho_h6{
+          font-size: 0.7rem ;
+          width: 5rem;
+      }
+      .img_selletiva_mobile{
+          width: 95px;
+          height: 40px;
+           
+        
+          
+      }
+  .tiu{
+      width: 56px;
+      height: 26px;
+      
+  }
+  .liu{
+      width:56px;
+      height:26px;
+      
+  }
+  .piu{
+      width:56px;
+      height: 26px;
+  }
+  .telefone{
+    display: block;    
+}
+.whatsapp{
+     display: block;
+ 
+}
+.email{
+   display: block;
+
+}
+     .imagens{
+      margin-left: -12rem;
+      padding-top: 6.5rem;
+      gap: 3rem;
+      width: 1px;
+      position: absolute;
+  
+     }
+
+      .div_bandeiras{
+          width: 64rem;
+      
+      }
+      
+      .secao1{
+         width: 0.5rem;
+         margin-left:30rem;
+      }
+
+      .bandeiras{
+          width:3vh;
+          margin-left:-99rem;
+      }
+.s{
+  display: flex;
+   margin-top: -2rem;
+  margin-left: -2rem;
+}
+       .toggle-btn{
+          display: block;
+          width: 2rem;
+          height: 2rem;
+          margin-left: -0.5rem;
+       }
+
+       ul{
+          display:none;
+       }
+
+       ul.show{
+           display:block;
+           margin-left: -20rem;
+           margin-top: -2rem;
+           display: none;
+       }
+        
+       .botoes{
+          border:none;
+          display: flex;
+          align-items: center;
+          justify-content: right;
+       }
+
+       .link_text_botoes{
+             color:black;
+             
+       }
+      .css_grid{
+          grid-template-columns: 11rem 11rem 11rem ;
+          height: 60%;
+          margin-top: 70px;
+          margin-left:1rem;
+      }
+      .css_grid a{
+          padding: 5px;
+          font-size: 10px;
+          text-align: center;
+      }
+      .texto_img_secao5{
+          font-size:0.6rem;
+      }
+      .conteudosecao5{
+          gap:3rem;
+      }
+      .empresa{
+          width: 120px;
+          height: 120px;
+      }
+      .pessoas{
+          width: 180px;
+          height: 100px;
+          margin-top: 76px;
+
+      }
+    .div_fotos_funcionarios{
+      margin-top:-75px;
+    }
+
+  .po{
+      width: 140px;
+      height: 140px;
+  }
+   .divsecao2{
+      gap: 40px;
+   }
+   .qo{
+      width: 25px;
+      height: 25px;
+   }
+   .elementosecao2{
+     font-size: 1rem;
+   }
+.texto_secao3{
+  font-size:0.8rem;
+  width: 30rem;
+}
+.textosecao5{
+   font-size:24px;
+}
+.ki{
+  width: 30px ;
+  height: 30px ;
+}
+.conteudosecao5{
+  flex-direction: column;
+}
+.secao5{
+  height: 540px;
+}
+.div_empresas{
+  flex-direction: column;
+}
+.secao6{
+  height: 700px;
+}
+.img_empresa1{
+  width: 60px;
+  height: 60px;
+  padding-left: 18px;
+}
+.img_empresa2{
+  width:75px ;
+  height:75px ;
+  padding-left: 10px;
+}
+.img_empresa3{
+  width: 89px;
+  height: 26px;
+}
+.img_empresa4{
+  width: 89px;
+  height: 31px;
+}
+.img_empresa5{
+  width: 89px;
+  height: 66px;
+}
+.div_fotos_funcionarios {
+  flex-direction: column;
+  margin-left: 3rem;
+}
+.secao7 {
+  height: 1000px;
+}
+.nome_pessoas{
+  width: 140px;
+}
+.h2_secao7{
+ font-size: 15px;
+}
+
+.texto_copyright{
+margin-left: 35%;
+}
+.produtossec8{
+  flex-direction: column;
+  margin-left: 5rem;
+}
+.secao8{
+  height: 1010px;
+}
+.produto{
+  margin-left: -4rem;
+ 
+}
+.v{
+  width: 190px;
+  height: 190px;
+}
+footer{
+  height: 200px;
+}
+.opa{
+  margin-left: -39rem;
+}
+.text_h2_endereco{
+  font-size: 10px;
+}
+.footer_endereco{
+ font-size:7px;
+}
+.m{
+  width: 10px;
+}
+.rede_social{
+  margin-left: -5rem;
+}
+.div_img_redesocial{
+  width: 2rem;
+  height: 2rem;
+}
+
+  }
+
+
+  @media only screen and (max-width: 391px) and (min-width: 389px)  {
+    body{
+        width: 47%;
+        touch-action: pan-y;
+      }
+      .textosecao2{
+          font-size:1rem;
+          margin-top: 1rem;
+      }
+      .texto_secao3{
+          font-size:1.1rem;
+      }
+      .aumentartamanho_h6{
+          font-size: 0.5rem ;
+      }
+      .img_selletiva_mobile{
+          width: 95px;
+          height: 40px;
+          margin-top: -6rem;    
+          margin-left: 8.5rem;
+          position: absolute;
+      }
+  .tiu{
+      width: 28px;
+      height: 18px;
+  }
+  .liu{
+      width:28px;
+      height:18px;
+  }
+  .piu{
+      width:28px;
+      height: 18px;
+  }
+      .telefone{
+          width: 70px;
+          height: 50px;
+          
+      }
+      .whatsapp{
+          width: 75px;
+          height: 50px;
+
+      }
+      .email{
+          width: 160px;
+          height: 48px;
+          
+      }
+     .imagens{
+      margin-left: -20.5rem;
+      padding-top: 6.5rem;
+      gap: 1rem;
+      width: 1px;
+      position: absolute;
+  
+     }
+
+      .div_bandeiras{
+          width: 43rem;
+      
+      }
+      
+      .secao1{
+         width: 0.5rem;
+         margin-left:30rem;
+      }
+
+      .bandeiras{
+          width:3vh;
+          margin-left:-63rem;
+      }
+.s{
+  display: flex;
+   margin-top: -2rem;
+  margin-left: -2rem;
+}
+       .toggle-btn{
+          display: block;
+          width: 2rem;
+          height: 2rem;
+          margin-left: -0.5rem;
+       }
+
+       ul{
+          display:none;
+       }
+
+       ul.show{
+           display:block;
+           margin-left: -20rem;
+           margin-top: -2rem;
+           display: none;
+       }
+        
+       .botoes{
+          border:none;
+          display: flex;
+          align-items: center;
+          justify-content: right;
+       }
+
+       .link_text_botoes{
+             color:black;
+             
+       }
+      .css_grid{
+          grid-template-columns: 8rem 8rem 8rem ;
+          height: 60%;
+          margin-top: 70px;
+          margin-left:-0.85rem;
+      }
+      .css_grid a{
+          padding: 5px;
+          font-size: 10px;
+          text-align: center;
+      }
+      .texto_img_secao5{
+          font-size:0.6rem;
+      }
+      .conteudosecao5{
+          gap:3rem;
+      }
+      .empresa{
+          width: 120px;
+          height: 120px;
+      }
+      .pessoas{
+          width: 180px;
+          height: 100px;
+          margin-top: 76px;
+
+      }
+    .div_fotos_funcionarios{
+      margin-top:-75px;
+    }
+
+  .po{
+      width: 140px;
+      height: 140px;
+  }
+   .divsecao2{
+      gap: 40px;
+   }
+   .qo{
+      width: 40px;
+      height: 40px;
+   }
+   .elementosecao2{
+     font-size: 18px;
+   }
+.texto_secao3{
+  font-size:0.9rem;
+  width: 22rem;
+}
+.textosecao5{
+   font-size:24px;
+}
+.ki{
+  width: 30px ;
+  height: 30px ;
+}
+.conteudosecao5{
+  flex-direction: column;
+}
+.secao5{
+  height: 540px;
+}
+.div_empresas{
+  flex-direction: column;
+}
+.secao6{
+  height: 700px;
+}
+.img_empresa1{
+  width: 60px;
+  height: 60px;
+  padding-left: 18px;
+}
+.img_empresa2{
+  width:75px ;
+  height:75px ;
+  padding-left: 10px;
+}
+.img_empresa3{
+  width: 89px;
+  height: 26px;
+}
+.img_empresa4{
+  width: 89px;
+  height: 31px;
+}
+.img_empresa5{
+  width: 89px;
+  height: 66px;
+}
+.div_fotos_funcionarios {
+  flex-direction: column;
+  margin-left: 3rem;
+}
+.secao7 {
+  height: 1000px;
+}
+.nome_pessoas{
+  width: 140px;
+}
+.h2_secao7{
+ font-size: 15px;
+}
+.butao_voltar_ao_topo{
+  display: none;
+
+}
+.ji{
+  display: none;
+}
+.texto_copyright{
+margin-left: 24%;
+}
+.produtossec8{
+  flex-direction: column;
+}
+.secao8{
+  height: 1010px;
+}
+.produto{
+  margin-left: -4rem;
+ 
+}
+.v{
+  width: 190px;
+  height: 190px;
+}
+footer{
+  height: 200px;
+}
+.opa{
+  margin-left: -39rem;
+}
+.text_h2_endereco{
+  font-size: 10px;
+}
+.footer_endereco{
+ font-size:7px;
+}
+.m{
+  width: 10px;
+}
+.rede_social{
+  margin-left: -5rem;
+}
+.div_img_redesocial{
+  width: 2rem;
+  height: 2rem;
+}
+
+  }
