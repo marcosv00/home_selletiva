@@ -542,15 +542,15 @@ n
             margin-left: 8.5rem;
             position: absolute;
         }
-    .tiu{
+    .svgTelefone{
         width: 28px;
         height: 18px;
     }
-    .liu{
+    .svgWhatsapp{
         width:28px;
         height:18px;
     }
-    .piu{
+    .svgEmail{
         width:28px;
         height: 18px;
     }
@@ -592,7 +592,7 @@ n
             width:3vh;
             margin-left:-85rem;
         }
-.s{
+.menuCelular{
     display: flex;
      margin-top: -2rem;
     margin-left: -2rem;
@@ -657,14 +657,14 @@ n
         margin-top:-75px;
       }
 
-    .po{
+    .imgFuncionario{
         width: 140px;
         height: 140px;
     }
      .divsecao2{
         gap: 40px;
      }
-     .qo{
+     .imgSecao2{
         width: 40px;
         height: 40px;
      }
@@ -678,7 +678,7 @@ n
  .textosecao5{
      font-size:24px;
  }
- .ki{
+ .svgSecao5{
     width: 30px ;
     height: 30px ;
  }
@@ -749,14 +749,14 @@ n
     margin-left: -4rem;
    
 }
-.v{
+.imgSecao8{
     width: 190px;
     height: 190px;
 }
 footer{
     height: 200px;
 }
-.opa{
+.divEndereco{
     margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -765,7 +765,7 @@ footer{
 .footer_endereco{
    font-size:7px;
 }
-.m{
+.imgRedeSocial{
     width: 10px;
 }
 .rede_social{
@@ -799,15 +799,15 @@ footer{
           margin-left: 8.5rem;
           position: absolute;
       }
-  .tiu{
+  .svgTelefone{
       width: 28px;
       height: 18px;
   }
-  .liu{
+  .svgWhatsapp{
       width:28px;
       height:18px;
   }
-  .piu{
+  .svgEmail{
       width:28px;
       height: 18px;
   }
@@ -849,7 +849,7 @@ footer{
           width:3vh;
           margin-left:-78rem;
       }
-.s{
+.menuCelular{
   display: flex;
    margin-top: -2rem;
   margin-left: -2rem;
@@ -914,14 +914,14 @@ footer{
       margin-top:-75px;
     }
 
-  .po{
+  .imgFuncionario{
       width: 140px;
       height: 140px;
   }
    .divsecao2{
       gap: 40px;
    }
-   .qo{
+   .imgSecao2{
       width: 40px;
       height: 40px;
    }
@@ -935,7 +935,7 @@ footer{
 .textosecao5{
    font-size:24px;
 }
-.ki{
+.svgSecao5{
   width: 30px ;
   height: 30px ;
 }
@@ -1006,14 +1006,14 @@ margin-left: 24%;
   margin-left: -4rem;
  
 }
-.v{
+.imgSecao8{
   width: 190px;
   height: 190px;
 }
 footer{
   height: 200px;
 }
-.opa{
+.divEndereco{
   margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -1022,7 +1022,7 @@ footer{
 .footer_endereco{
  font-size:7px;
 }
-.m{
+.imgRedeSocial{
   width: 10px;
 }
 .rede_social{
@@ -1057,15 +1057,15 @@ footer{
           margin-left: 8.5rem;
           position: absolute;
       }
-  .tiu{
+  .svgTelefone{
       width: 28px;
       height: 18px;
   }
-  .liu{
+  .svgWhatsapp{
       width:28px;
       height:18px;
   }
-  .piu{
+  .svgEmail{
       width:28px;
       height: 18px;
   }
@@ -1107,7 +1107,7 @@ footer{
           width:3vh;
           margin-left:-92rem;
       }
-.s{
+.menuCelular{
   display: flex;
    margin-top: -2rem;
   margin-left: -2rem;
@@ -1172,14 +1172,14 @@ footer{
       margin-top:-75px;
     }
 
-  .po{
+  .imgFuncionario{
       width: 140px;
       height: 140px;
   }
    .divsecao2{
       gap: 40px;
    }
-   .qo{
+   .imgSecao2{
       width: 40px;
       height: 40px;
    }
@@ -1193,7 +1193,7 @@ footer{
 .textosecao5{
    font-size:24px;
 }
-.ki{
+.svgSecao5{
   width: 30px ;
   height: 30px ;
 }
@@ -1264,14 +1264,14 @@ margin-left: 24%;
   margin-left: -4rem;
  
 }
-.v{
+.imgSecao8{
   width: 190px;
   height: 190px;
 }
 footer{
   height: 200px;
 }
-.opa{
+.divEndereco{
   margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -1280,7 +1280,7 @@ footer{
 .footer_endereco{
  font-size:7px;
 }
-.m{
+.imgRedeSocial{
   width: 10px;
 }
 .rede_social{
@@ -1316,15 +1316,15 @@ footer{
           margin-left: 8rem;
           position: absolute;
       }
-  .tiu{
+  .svgTelefone{
       width: 16px;
       height: 11px;
   }
-  .liu{
+  .svgWhatsapp{
       width:16px;
       height:11px;
   }
-  .piu{
+  .svgEmail{
       width:16px;
       height: 11px;
   }
@@ -1366,7 +1366,7 @@ footer{
           width:3vh;
           margin-left:-73rem;
       }
-.s{
+.menuCelular{
   display: flex;
    margin-top: -2rem;
   margin-left: -2rem;
@@ -1431,14 +1431,14 @@ footer{
       margin-top:-75px;
     }
 
-  .po{
+  .imgFuncionario{
       width: 140px;
       height: 140px;
   }
    .divsecao2{
       gap: 40px;
    }
-   .qo{
+   .imgSecao2{
       width: 40px;
       height: 40px;
    }
@@ -1452,7 +1452,7 @@ footer{
 .textosecao5{
    font-size:24px;
 }
-.ki{
+.svgSecao5{
   width: 30px ;
   height: 30px ;
 }
@@ -1524,14 +1524,14 @@ margin-left: 24%;
   margin-left: -4rem;
  
 }
-.v{
+.imgSecao8{
   width: 190px;
   height: 190px;
 }
 footer{
   height: 200px;
 }
-.opa{
+.divEndereco{
   margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -1540,7 +1540,7 @@ footer{
 .footer_endereco{
  font-size:7px;
 }
-.m{
+.imgRedeSocial{
   width: 10px;
 }
 .rede_social{
@@ -1575,17 +1575,17 @@ footer{
           margin-left: 6.3rem;
           position: absolute;
       }
-  .tiu{
+  .svgTelefone{
       width: 28px;
       height: 18px;
       display: none;
   }
-  .liu{
+  .svgWhatsapp{
       width:28px;
       height:18px;
       display: none;
   }
-  .piu{
+  .svgEmail{
       width:28px;
       height: 18px;
       display: none;
@@ -1628,7 +1628,7 @@ footer{
           width:3vh;
           margin-left:-83rem;
       }
-.s{
+.menuCelular{
   display: flex;
    margin-top: -2rem;
   margin-left: -2rem;
@@ -1693,14 +1693,14 @@ footer{
       margin-top:-75px;
     }
 
-  .po{
+  .imgFuncionario{
       width: 140px;
       height: 140px;
   }
    .divsecao2{
       gap: 40px;
    }
-   .qo{
+   .imgSecao2{
       width: 25px;
       height: 25px;
    }
@@ -1714,7 +1714,7 @@ footer{
 .textosecao5{
    font-size:24px;
 }
-.ki{
+.svgSecao5{
   width: 30px ;
   height: 30px ;
 }
@@ -1786,14 +1786,14 @@ margin-left: 19%;
   margin-left: -4rem;
  
 }
-.v{
+.imgSecao8{
   width: 190px;
   height: 190px;
 }
 footer{
   height: 200px;
 }
-.opa{
+.divEndereco{
   margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -1802,7 +1802,7 @@ footer{
 .footer_endereco{
  font-size:7px;
 }
-.m{
+.imgRedeSocial{
   width: 10px;
 }
 .rede_social{
@@ -1839,17 +1839,17 @@ footer{
         
           
       }
-  .tiu{
+  .svgTelefone{
       width: 56px;
       height: 26px;
       
   }
-  .liu{
+  .svgWhatsapp{
       width:56px;
       height:26px;
       
   }
-  .piu{
+  .svgEmail{
       width:56px;
       height: 26px;
   }
@@ -1878,7 +1878,7 @@ footer{
           width:3vh;
           margin-left:-21rem;
       }
-.s{
+.menuCelular{
   display: flex;
    margin-top: -2rem;
   margin-left: -2rem;
@@ -1943,14 +1943,14 @@ footer{
       margin-top:-75px;
     }
 
-  .po{
+  .imgFuncionario{
       width: 140px;
       height: 140px;
   }
    .divsecao2{
       gap: 40px;
    }
-   .qo{
+   .imgSecao2{
       width: 25px;
       height: 25px;
    }
@@ -1964,7 +1964,7 @@ footer{
 .textosecao5{
    font-size:24px;
 }
-.ki{
+.svgSecao5{
   width: 30px ;
   height: 30px ;
 }
@@ -2030,14 +2030,14 @@ margin-left: 40%;
   margin-left: -4rem;
  
 }
-.v{
+.imgSecao8{
   width: 190px;
   height: 190px;
 }
 footer{
   height: 200px;
 }
-.opa{
+.divEndereco{
   margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -2046,7 +2046,7 @@ footer{
 .footer_endereco{
  font-size:7px;
 }
-.m{
+.imgRedeSocial{
   width: 10px;
 }
 .rede_social{
@@ -2082,17 +2082,17 @@ footer{
         
           
       }
-  .tiu{
+  .svgTelefone{
       width: 56px;
       height: 26px;
       
   }
-  .liu{
+  .svgWhatsapp{
       width:56px;
       height:26px;
       
   }
-  .piu{
+  .svgEmail{
       width:56px;
       height: 26px;
   }
@@ -2130,7 +2130,7 @@ footer{
           width:3vh;
           margin-left:-99rem;
       }
-.s{
+.menuCelular{
   display: flex;
    margin-top: -2rem;
   margin-left: -2rem;
@@ -2195,14 +2195,14 @@ footer{
       margin-top:-75px;
     }
 
-  .po{
+  .imgFuncionario{
       width: 140px;
       height: 140px;
   }
    .divsecao2{
       gap: 40px;
    }
-   .qo{
+   .imgSecao2{
       width: 25px;
       height: 25px;
    }
@@ -2216,7 +2216,7 @@ footer{
 .textosecao5{
    font-size:24px;
 }
-.ki{
+.svgSecao5{
   width: 30px ;
   height: 30px ;
 }
@@ -2282,14 +2282,14 @@ margin-left: 35%;
   margin-left: -4rem;
  
 }
-.v{
+.imgSecao8{
   width: 190px;
   height: 190px;
 }
 footer{
   height: 200px;
 }
-.opa{
+.divEndereco{
   margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -2298,7 +2298,7 @@ footer{
 .footer_endereco{
  font-size:7px;
 }
-.m{
+.imgRedeSocial{
   width: 10px;
 }
 .rede_social{
@@ -2334,15 +2334,15 @@ footer{
           margin-left: 8.5rem;
           position: absolute;
       }
-  .tiu{
+  .svgTelefone{
       width: 28px;
       height: 18px;
   }
-  .liu{
+  .svgWhatsapp{
       width:28px;
       height:18px;
   }
-  .piu{
+  .svgEmail{
       width:28px;
       height: 18px;
   }
@@ -2384,7 +2384,7 @@ footer{
           width:3vh;
           margin-left:-63rem;
       }
-.s{
+.menuCelular{
   display: flex;
    margin-top: -2rem;
   margin-left: -2rem;
@@ -2449,14 +2449,14 @@ footer{
       margin-top:-75px;
     }
 
-  .po{
+  .imgFuncionario{
       width: 140px;
       height: 140px;
   }
    .divsecao2{
       gap: 40px;
    }
-   .qo{
+   .imgSecao2{
       width: 40px;
       height: 40px;
    }
@@ -2470,7 +2470,7 @@ footer{
 .textosecao5{
    font-size:24px;
 }
-.ki{
+.svgSecao5{
   width: 30px ;
   height: 30px ;
 }
@@ -2541,14 +2541,14 @@ margin-left: 24%;
   margin-left: -4rem;
  
 }
-.v{
+.imgSecao8{
   width: 190px;
   height: 190px;
 }
 footer{
   height: 200px;
 }
-.opa{
+.divEndereco{
   margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -2557,7 +2557,7 @@ footer{
 .footer_endereco{
  font-size:7px;
 }
-.m{
+.imgRedeSocial{
   width: 10px;
 }
 .rede_social{
@@ -2585,7 +2585,7 @@ footer{
   height: 3rem;
   margin-top: -12px;
  }
- .po{
+ .imgFuncionario{
   width: 220px;
   height: 220px;
 }
@@ -2609,17 +2609,17 @@ footer{
       width: 95px;
       height: 40px;
   }
-.tiu{
+.svgTelefone{
   width: 56px;
   height: 26px;
   
 }
-.liu{
+.svgWhatsapp{
   width:56px;
   height:26px;
   
 }
-.piu{
+.svgEmail{
   width:56px;
   height: 26px;
 }
@@ -2659,7 +2659,7 @@ display: block;
     
   }
 
-.s{
+.menuCelular{
 display: flex;
 margin-top: -2rem;
 margin-left: -2rem;
@@ -2724,14 +2724,14 @@ margin-left: -2rem;
   margin-top:-75px;
 }
 
-.po{
+.imgFuncionario{
   width: 140px;
   height: 140px;
 }
 .divsecao2{
   gap: 40px;
 }
-.qo{
+.imgSecao2{
   width: 25px;
   height: 25px;
 }
@@ -2745,7 +2745,7 @@ width: 50rem;
 .textosecao5{
 font-size:24px;
 }
-.ki{
+.svgSecao5{
 width: 30px ;
 height: 30px ;
 }
@@ -2811,14 +2811,14 @@ height: 1010px;
 margin-left: -4rem;
 
 }
-.v{
+.imgSecao8{
 width: 190px;
 height: 190px;
 }
 footer{
 height: 200px;
 }
-.opa{
+.divEndereco{
 margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -2827,7 +2827,7 @@ font-size: 10px;
 .footer_endereco{
 font-size:7px;
 }
-.m{
+.imgRedeSocial{
 width: 10px;
 }
 .rede_social{
@@ -2858,17 +2858,17 @@ height: 2rem;
       width: 95px;
       height: 40px;
   }
-.tiu{
+.svgTelefone{
   width: 56px;
   height: 26px;
   
 }
-.liu{
+.svgWhatsapp{
   width:56px;
   height:26px;
   
 }
-.piu{
+.svgEmail{
   width:56px;
   height: 26px;
 }
@@ -2908,7 +2908,7 @@ display: block;
     
   }
 
-.s{
+.menuCelular{
 display: flex;
 margin-top: -2rem;
 margin-left: -2rem;
@@ -2973,14 +2973,14 @@ margin-left: -2rem;
   margin-top:-75px;
 }
 
-.po{
+.imgFuncionario{
   width: 140px;
   height: 140px;
 }
 .divsecao2{
   gap: 40px;
 }
-.qo{
+.imgSecao2{
   width: 25px;
   height: 25px;
 }
@@ -2994,7 +2994,7 @@ width: 50rem;
 .textosecao5{
 font-size:24px;
 }
-.ki{
+.svgSecao5{
 width: 30px ;
 height: 30px ;
 }
@@ -3060,14 +3060,14 @@ height: 1010px;
 margin-left: -4rem;
 
 }
-.v{
+.imgSecao8{
 width: 190px;
 height: 190px;
 }
 footer{
 height: 200px;
 }
-.opa{
+.divEndereco{
 margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -3076,7 +3076,7 @@ font-size: 10px;
 .footer_endereco{
 font-size:7px;
 }
-.m{
+.imgRedeSocial{
 width: 10px;
 }
 .rede_social{
@@ -3107,17 +3107,17 @@ height: 2rem;
       width: 95px;
       height: 40px;
   }
-.tiu{
+.svgTelefone{
   width: 56px;
   height: 26px;
   
 }
-.liu{
+.svgWhatsapp{
   width:56px;
   height:26px;
   
 }
-.piu{
+.svgEmail{
   width:56px;
   height: 26px;
 }
@@ -3157,7 +3157,7 @@ display: block;
     
   }
 
-.s{
+.menuCelular{
 display: flex;
 margin-top: -2rem;
 margin-left: -2rem;
@@ -3222,14 +3222,14 @@ margin-left: -2rem;
   margin-top:-75px;
 }
 
-.po{
+.imgFuncionario{
   width: 140px;
   height: 140px;
 }
 .divsecao2{
   gap: 40px;
 }
-.qo{
+.imgSecao2{
   width: 25px;
   height: 25px;
 }
@@ -3243,7 +3243,7 @@ width: 50rem;
 .textosecao5{
 font-size:24px;
 }
-.ki{
+.svgSecao5{
 width: 30px ;
 height: 30px ;
 }
@@ -3309,14 +3309,14 @@ height: 1010px;
 margin-left: -4rem;
 
 }
-.v{
+.imgSecao8{
 width: 190px;
 height: 190px;
 }
 footer{
 height: 200px;
 }
-.opa{
+.divEndereco{
 margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -3325,7 +3325,7 @@ font-size: 10px;
 .footer_endereco{
 font-size:7px;
 }
-.m{
+.imgRedeSocial{
 width: 10px;
 }
 .rede_social{
@@ -3360,17 +3360,17 @@ height: 2rem;
         position: absolute;
     
   }
-.tiu{
+.svgTelefone{
   width: 56px;
   height: 26px;
   
 }
-.liu{
+.svgWhatsapp{
   width:56px;
   height:26px;
   
 }
-.piu{
+.svgEmail{
   width:56px;
   height: 26px;
 }
@@ -3410,7 +3410,7 @@ display: block;
     
   }
 
-.s{
+.menuCelular{
 display: flex;
 margin-top: -2rem;
 margin-left: -2rem;
@@ -3475,14 +3475,14 @@ margin-left: -2rem;
   margin-top:-75px;
 }
 
-.po{
+.imgFuncionario{
   width: 140px;
   height: 140px;
 }
 .divsecao2{
   gap: 40px;
 }
-.qo{
+.imgSecao2{
   width: 25px;
   height: 25px;
 }
@@ -3496,7 +3496,7 @@ width: 50rem;
 .textosecao5{
 font-size:24px;
 }
-.ki{
+.svgSecao5{
 width: 30px ;
 height: 30px ;
 }
@@ -3562,14 +3562,14 @@ height: 1010px;
 margin-left: -4rem;
 
 }
-.v{
+.imgSecao8{
 width: 190px;
 height: 190px;
 }
 footer{
 height: 200px;
 }
-.opa{
+.divEndereco{
 margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -3578,7 +3578,7 @@ font-size: 10px;
 .footer_endereco{
 font-size:7px;
 }
-.m{
+.imgRedeSocial{
 width: 10px;
 }
 .rede_social{
@@ -3613,15 +3613,15 @@ height: 2rem;
         margin-left: 8.5rem;
         position: absolute;
     }
-.tiu{
+.svgTelefone{
     width: 28px;
     height: 18px;
 }
-.liu{
+.svgWhatsapp{
     width:28px;
     height:18px;
 }
-.piu{
+.svgEmail{
     width:28px;
     height: 18px;
 }
@@ -3663,7 +3663,7 @@ height: 2rem;
         width:3vh;
         margin-left:-4rem;
     }
-.s{
+.menuCelular{
 display: flex;
  margin-top: -2rem;
 margin-left: -2rem;
@@ -3728,14 +3728,14 @@ margin-left: -2rem;
     margin-top:-75px;
   }
 
-.po{
+.imgFuncionario{
     width: 140px;
     height: 140px;
 }
  .divsecao2{
     gap: 40px;
  }
- .qo{
+ .imgSecao2{
     width: 40px;
     height: 40px;
  }
@@ -3749,7 +3749,7 @@ width: 22rem;
 .textosecao5{
  font-size:24px;
 }
-.ki{
+.svgSecao5{
 width: 30px ;
 height: 30px ;
 }
@@ -3820,14 +3820,14 @@ height: 1010px;
 margin-left: -5.5rem;
 
 }
-.v{
+.imgSecao8{
 width: 190px;
 height: 190px;
 }
 footer{
 height: 200px;
 }
-.opa{
+.divEndereco{
 margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -3836,7 +3836,7 @@ font-size: 10px;
 .footer_endereco{
 font-size:7px;
 }
-.m{
+.imgRedeSocial{
 width: 10px;
 }
 .rede_social{
@@ -3871,17 +3871,17 @@ height: 2rem;
         margin-left: 6.3rem;
         position: absolute;
     }
-.tiu{
+.svgTelefone{
     width: 28px;
     height: 18px;
     display: none;
 }
-.liu{
+.svgWhatsapp{
     width:28px;
     height:18px;
     display: none;
 }
-.piu{
+.svgEmail{
     width:28px;
     height: 18px;
     display: none;
@@ -3924,7 +3924,7 @@ height: 2rem;
         width:3vh;
         margin-left:-2rem;
     }
-.s{
+.menuCelular{
 display: flex;
  margin-top: -2rem;
 margin-left: -2rem;
@@ -3991,14 +3991,14 @@ margin-left: -2rem;
 
   }
 
-.po{
+.imgFuncionario{
     width: 140px;
     height: 140px;
 }
  .divsecao2{
     gap: 40px;
  }
- .qo{
+ .imgSecao2{
     width: 25px;
     height: 25px;
  }
@@ -4012,7 +4012,7 @@ width: 17rem;
 .textosecao5{
  font-size:1rem;
 }
-.ki{
+.svgSecao5{
 width: 30px ;
 height: 30px ;
 }
@@ -4084,14 +4084,14 @@ height: 1010px;
 margin-left: -4rem;
 
 }
-.v{
+.imgSecao8{
 width: 190px;
 height: 190px;
 }
 footer{
 height: 200px;
 }
-.opa{
+.divEndereco{
 margin-left: -39rem;
 }
 .text_h2_endereco{
@@ -4100,7 +4100,7 @@ font-size: 10px;
 .footer_endereco{
 font-size:7px;
 }
-.m{
+.imgRedeSocial{
 width: 10px;
 }
 .rede_social{
