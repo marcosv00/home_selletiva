@@ -36,7 +36,6 @@ function aparece(){
 }
 
 
-
 function desaparece(){
   if(window.scrollY < 1450){
     btn.style.transition = "linear 0.3s"

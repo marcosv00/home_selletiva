@@ -1,4114 +1,4843 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');/*eu importei uma fonte do google fonts e coloquei no meu arquivo css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*eu importei uma fonte do google fonts e coloquei no meu arquivo css*/
 
 * {
-    padding: 0; /*o corpo do html tem uma margem padrao e padding padrao e elas precisam ser zeradas para não atrapalhgar no seu projeto*/
-    margin: 0;
-    scroll-behavior: smooth;
+  padding: 0;
+  /*o corpo do html tem uma margem padrao e padding padrao e elas precisam ser zeradas para não atrapalhgar no seu projeto*/
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 /*no corpo do html eu defini uma altura e largura para ele*/
 body {
-    width: 47%;
-    height: 100%;
-    overflow-x: hidden;/*a barra horizontal de rolagem não existe mais no teu projeto*/
-    font-family: 'Roboto', sans-serif;/*coloquei uma fonte para todos os textos que eu inserisse no meu projeto*/
+  width: 47%;
+  height: 100%;
+  overflow-x: hidden;
+  /*a barra horizontal de rolagem não existe mais no teu projeto*/
+  font-family: 'Roboto', sans-serif;
+  /*coloquei uma fonte para todos os textos que eu inserisse no meu projeto*/
 }
 
 
 .div_bandeiras {
-    background-color: #e7e7e7;/*definir uma cor para o background da parte das bandeireas*/
-    height: 2.5rem;/*defini uma altura*/
-    width: 220%;/*defini uma largura*/
+  background-color: #e7e7e7;
+  /*definir uma cor para o background da parte das bandeireas*/
+  height: 2.5rem;
+  /*defini uma altura*/
+  width: 220%;
+  /*defini uma largura*/
 
 }
 
 /*deixar fixo as bandeiras como estar no site original*/
 .bandeiras {
-    width: 1rem;
-    height: 1rem;
+  width: 1rem;
+  height: 1rem;
 }
 
-.sub_bandeiras{
-    display: flex;/*Pensando nessa flexibilidade de posicionamento, as pessoas desenvolvedoras criaram um novo tipo de display: o display: flex;*/
-    justify-content:flex-end;/*Essa prorpiedade ajusta horizontalmente os elementos filhos do flex container*/
-    padding:  0.6rem 0rem 0rem 3200%;
-    margin-left: 100vh;
-    gap:0.5rem;/*A gappropriedade define o tamanho do intervalo entre as linhas e entre as colunas no flexbox, grid ou layout multicolunas. É uma abreviação para as seguintes propriedades:*/
+.sub_bandeiras {
+  display: flex;
+  /*Pensando nessa flexibilidade de posicionamento, as pessoas desenvolvedoras criaram um novo tipo de display: o display: flex;*/
+  justify-content: flex-end;
+  /*Essa prorpiedade ajusta horizontalmente os elementos filhos do flex container*/
+  padding: 0.6rem 0rem 0rem 3200%;
+  margin-left: 100vh;
+  gap: 0.5rem;
+  /*A gappropriedade define o tamanho do intervalo entre as linhas e entre as colunas no flexbox, grid ou layout multicolunas. É uma abreviação para as seguintes propriedades:*/
 }
 
 .secao1 {
-    background-color: #ffffff;
-    height: 130px;
-    width: 220%;
+  background-color: #ffffff;
+  height: 130px;
+  width: 220%;
 }
 
 .imagens {
-    display: flex;
-    justify-content: center;
-    align-items: center;/*A propriedade align-items CSS define o valor align-self em todos os filhos diretos como um grupo. No Flexbox, ele controla o alinhamento dos itens no Eixo Cruzado. */
-    padding: 2.8rem 1rem;
-    gap:5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*A propriedade align-items CSS define o valor align-self em todos os filhos diretos como um grupo. No Flexbox, ele controla o alinhamento dos itens no Eixo Cruzado. */
+  padding: 2.8rem 1rem;
+  gap: 5rem;
 }
 
-.whatsapp{
+.whatsapp {
   display: flex;
 }
 
-.telefone{
-    display: flex;
+.telefone {
+  display: flex;
 }
 
-.email{
-   display: flex;
+.email {
+  display: flex;
 }
 
 .preto {
-    color: black;
+  color: black;
 }
 
 .texto {
-    padding-top: 0.4rem;
-    padding-left: 0.31rem;
+  padding-top: 0.4rem;
+  padding-left: 0.31rem;
 }
 
-.aumentartamanho_h6{
-    font-size: 1em;
+.aumentartamanho_h6 {
+  font-size: 1em;
 }
 
 .caixa_botoes {
-    display: flex;
-    justify-content: center;
-    z-index: 1;/*A propriedade CSS z-index define a ordem z de um elemento posicionado e seus descendentes ou itens flex e grid. Elementos sobrepostos com um índice z maior cobrem aqueles com um menor.*/
-    margin-right: 1%;
-    margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  /*A propriedade CSS z-index define a ordem z de um elemento posicionado e seus descendentes ou itens flex e grid. Elementos sobrepostos com um índice z maior cobrem aqueles com um menor.*/
+  margin-right: 1%;
+  margin-top: -1rem;
 }
 
 /* A classe fixa é adicionada à barra de navegação com JS quando atinge a posição de rolagem */
-ul.sticky{
+ul.sticky {
   padding-top: 0.3rem;
 }
 
-ul.sticky li{
-    border:solid 1px rgb(218, 218, 218);
-    border-radius:2px;
-    padding: 0.6rem;
-    
+ul.sticky li {
+  border: solid 1px rgb(218, 218, 218);
+  border-radius: 2px;
+  padding: 0.6rem;
+
 }
 
 /*adicionando propriedades ao sticky*/
 .sticky {
-    position: fixed;
-    top: 0;
-    transition:0.5s;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
 }
 
-.menu{
-    z-index: 100000;
+.menu {
+  z-index: 100000;
 }
 
 .botoes {
-    display: inline-block;
-    background-color: grey;
-    border: 1px solid grey;
-    padding: 0.5rem;
-    margin: 0.1rem;
-    opacity: 0.9;
-    z-index: 100000;
+  display: inline-block;
+  background-color: grey;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  margin: 0.1rem;
+  opacity: 0.9;
+  z-index: 100000;
 }
 
-.link_text_botoes{
-    color:white;
-    font-size:1.1rem;
-    opacity: 1;
-    text-decoration-line: none;/*A propriedade CSS text-decoration-line define o tipo de decoração usada no texto em um elemento, como um sublinhado ou uma sobreposição.*/
-    z-index: 1;
+.link_text_botoes {
+  color: white;
+  font-size: 1.1rem;
+  opacity: 1;
+  text-decoration-line: none;
+  /*A propriedade CSS text-decoration-line define o tipo de decoração usada no texto em um elemento, como um sublinhado ou uma sobreposição.*/
+  z-index: 1;
 }
 
 /*No CSS, o Hover CSS faz parte do conjunto de palavras-chave utilizadas pelas pseudo-classes da linguagem de estilos e serve para adicionar características a um elemento quando a pessoa usuária posiciona o mouse sobre ele. */
-.botoes:hover{
-   background-color: #67ce84;
-   border:1px solid #67ce84;
-   transition: 0.3s;/*As transições CSS permitem que você altere os valores de propriedade suavemente, ao longo de uma determinada duração.*/
+.botoes:hover {
+  background-color: #67ce84;
+  border: 1px solid #67ce84;
+  transition: 0.3s;
+  /*As transições CSS permitem que você altere os valores de propriedade suavemente, ao longo de uma determinada duração.*/
 }
 
 
 .img_grande {
-    bottom: -41px;
-    position: relative;
-    background-image: cover;
-    z-index: -1;
+  bottom: -41px;
+  position: relative;
+  background-image: cover;
+  z-index: -1;
 }
 
 .secao2 {
-    width: 220%;
-    height: 230px;
-    position: relative;
-    background-color: #ffffff;
-    bottom: -2.2rem;
-    z-index: -1;
+  width: 220%;
+  height: 230px;
+  position: relative;
+  background-color: #ffffff;
+  bottom: -2.2rem;
+  z-index: -1;
 }
 
 .caixatexto {
-    left: 45%;
-    margin-top: 1%;
+  left: 45%;
+  margin-top: 1%;
 }
 
 .textosecao2 {
-    text-align: center;
-    color: #50a751;
+  text-align: center;
+  color: #50a751;
 }
 
 .divsecao2 {
-    display: flex;
-    justify-content: center;
-    padding: 2.9rem 0rem;
-    gap:15rem;
+  display: flex;
+  justify-content: center;
+  padding: 2.9rem 0rem;
+  gap: 15rem;
 }
 
 
 .sistema_web {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .apresentacao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .elementosecao2 {
-    margin: 0.3rem auto;
-    text-decoration: none;/*A propriedade CSS abreviada de decoração de texto define a aparência de linhas decorativas no texto. É uma abreviação para text-decoration-line, text-decoration-color, text-decoration-style e a mais recente propriedade text-decoration-thickness.*/
+  margin: 0.3rem auto;
+  text-decoration: none;
+  /*A propriedade CSS abreviada de decoração de texto define a aparência de linhas decorativas no texto. É uma abreviação para text-decoration-line, text-decoration-color, text-decoration-style e a mais recente propriedade text-decoration-thickness.*/
 }
 
 .elementosecao2img {
-    color: green;
+  color: green;
 }
 
 .a {
-    color: #148837;
-    cursor: pointer;
+  color: #148837;
+  cursor: pointer;
 }
 
 .secao3 {
-    background-color: #144923;
-    width: 220%;
-    height: 201.4px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
+  background-color: #144923;
+  width: 220%;
+  height: 201.4px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
 }
+
 .texto_secao3 {
-    text-align: center;
-    color: rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .secao4 {
-    background-color: #ffffff;
-    width: 220%;
-    height: 668.6px;
+  background-color: #ffffff;
+  width: 220%;
+  height: 668.6px;
 }
 
-.textosecao4{
-    color: #0a8b06;
-    text-align: center;
-    font-weight: 900;
-    font-size: 25px;
-    margin-right: 15%;
-    transform: translate(10%, 125%)
+.textosecao4 {
+  color: #0a8b06;
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  margin-right: 15%;
+  transform: translate(10%, 125%)
 }
 
 /*utilizei a tecnlogia css grid*/
 /*CSS Grid Layout introduz um sistema bi-dimensional de grid (literalmente "grades") para CSS. Grids podem ser usados para o design de layouts de grandes seções de uma webpage, assim como de pequenos elementos de interface. */
 .css_grid {
-    padding: 1rem;
-    margin-top: 50px;
-    display: grid;/*// Torna o elemento um grid container.*/
-    grid-template-columns: 20rem 20rem 20rem;/*A propriedade CSS grid-template-columns define os nomes de linha e as funções de dimensionamento de controle das colunas de grade.*/
-    height: 80%;
-    justify-content: center;
-    z-index: 0;
-    
+  padding: 1rem;
+  margin-top: 50px;
+  display: grid;
+  /*// Torna o elemento um grid container.*/
+  grid-template-columns: 20rem 20rem 20rem;
+  /*A propriedade CSS grid-template-columns define os nomes de linha e as funções de dimensionamento de controle das colunas de grade.*/
+  height: 80%;
+  justify-content: center;
+  z-index: 0;
+
 }
 
 .css_grid a {
-    background-color:rgb(186, 255, 186);
-    padding: 20px;
-    border: 1px solid rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s;
-    opacity: 0.7;
-    z-index: 0;
+  background-color: rgb(186, 255, 186);
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  opacity: 0.7;
+  z-index: 0;
 }
 
-.css_grid a:hover{
-    border: 5px solid #022d09;
-    border-radius: 15%;
-    opacity: 1;
+.css_grid a:hover {
+  border: 5px solid #022d09;
+  border-radius: 15%;
+  opacity: 1;
 }
 
 .secao5 {
-    background-color: rgb(15, 77, 63);
-    width: 220%;
-    height: 342.2px;
+  background-color: rgb(15, 77, 63);
+  width: 220%;
+  height: 342.2px;
 }
 
 .textosecao5 {
-    color:white;
-    font-size: 2.5rem;
-    text-align: center;
-    padding-top: 15px;
-    
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 15px;
+
 }
 
 .conteudosecao5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 3rem 1rem;
-    gap:60px;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem 1rem;
+  gap: 60px;
+
 }
 
 .div_img_secao5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 
 }
 
 .img_secao5 {
-    color: rgb(160, 228, 83);
+  color: rgb(160, 228, 83);
 }
 
 .texto_img_secao5 {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .secao6 {
-    height: 262px;
-    width: 220%;
-    background-color: rgb(255, 253, 253);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 262px;
+  width: 220%;
+  background-color: rgb(255, 253, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .div_empresas {
-    display: flex;
-    margin-top: 0.1rem;
+  display: flex;
+  margin-top: 0.1rem;
 }
 
 .empresa {
-    border: solid 1px black;
-    display: flex;
-    width: 212px;
-    height: 212px;
-    background-color: #ffffff;
-    align-items: center;
-    padding-left: 15px;
-    box-sizing: border-box;
-    border-radius: 8px;
-    margin: 0.5rem;
+  border: solid 1px black;
+  display: flex;
+  width: 212px;
+  height: 212px;
+  background-color: #ffffff;
+  align-items: center;
+  padding-left: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 0.5rem;
 }
 
-.img_empresa1{
-    padding-left: 35px;
+.img_empresa1 {
+  padding-left: 35px;
 }
 
-.img_empresa2{
-    padding-left: 20px;
+.img_empresa2 {
+  padding-left: 20px;
 }
 
 .secao7 {
-    width: 220%;
-    height: 400px;
-    background-color:rgb(15, 77, 63);
+  width: 220%;
+  height: 400px;
+  background-color: rgb(15, 77, 63);
 }
 
 
 .texto_secao7 {
-    color: #ffffff;
-    text-align: center;
-    padding-top: 30px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .div_fotos_funcionarios {
-    display: flex;
-    padding: 2rem 7rem;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  padding: 2rem 7rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .pessoas {
-    margin: 0rem 0.1rem;
-    display: block;
-    
+  margin: 0rem 0.1rem;
+  display: block;
+
 }
 
 .nome_pessoas {
-    background-color: #ffffff;
+  background-color: #ffffff;
 
 }
 
 .h2_secao7 {
-    font-size: 1rem;
-    text-align: center;
-    color:rgb(79, 146, 3);
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(79, 146, 3);
 }
 
 .secao8 {
-    background-color: rgb(253, 253, 253);
-    width: 220%;
-    height: 350px;
+  background-color: rgb(253, 253, 253);
+  width: 220%;
+  height: 350px;
 
 }
 
 .textosec8 {
-    text-align: center;
-    margin-top: 18px;
-    color: #0a8b06;
+  text-align: center;
+  margin-top: 18px;
+  color: #0a8b06;
 }
 
-.textosec8_preto{
-     color:black;
+.textosec8_preto {
+  color: black;
 }
 
 .produtossec8 {
-    display: flex;
-    padding: 1.5rem 15rem;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  padding: 1.5rem 15rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.produto img{
-    border-radius:3.5px;
+.produto img {
+  border-radius: 3.5px;
 }
 
-.produto{
-    margin: 0.1rem;
+.produto {
+  margin: 0.1rem;
 }
 
 .div_infoproduto {
-    background-color: #379114;
-    padding: 0.5rem;
-    margin-top:-2px;
+  background-color: #379114;
+  padding: 0.5rem;
+  margin-top: -2px;
 }
 
 .infoproduto {
-    text-align: center;
-    font-size: 1rem;
-    color: white;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
 }
-.linksecao8{
-    text-decoration: none;
+
+.linksecao8 {
+  text-decoration: none;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    padding: 3rem 40px;
-    background-color: #343a40;
-    width: 220%;
-    height: 100px;
-    gap:650px;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 40px;
+  background-color: #343a40;
+  width: 220%;
+  height: 100px;
+  gap: 650px;
 }
 
 .rede_social {
-    display: flex;
+  display: flex;
 
 }
 
 .div_img_redesocial {
-    background-color:rgb(14, 14, 14);
-    width: 2.6rem;
-    height: 2.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.2rem;
-    border-radius: 100%;
-    
+  background-color: rgb(14, 14, 14);
+  width: 2.6rem;
+  height: 2.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+  border-radius: 100%;
+
 }
 
-.div_img_redesocial:hover{
-    background-color:rgb(49, 110, 21);
-    transition:0.5s;
+.div_img_redesocial:hover {
+  background-color: rgb(49, 110, 21);
+  transition: 0.5s;
 }
 
 .cor_redesocial {
-    color: white;
+  color: white;
 }
 
 .footer_endereco {
-    color: rgb(207, 205, 205);
-    margin: 15px 0px;
+  color: rgb(207, 205, 205);
+  margin: 15px 0px;
 }
 
-.div_copyright{
+.div_copyright {
 
-    background-color: #1a1919;
-    width: 220%;
-    height: 30px;
+  background-color: #1a1919;
+  width: 220%;
+  height: 30px;
 
 }
 
 .texto_copyright {
-    color: white;
-    font-size: 10px;
-    margin-left: 18%;
-    padding-top: 9px;
-}
-n
-.subtext{
-   display: flex;
-   margin-left: 52vmin ;
-   width: 280px;
-   justify-content: flex-start;
-   height: 10px;
-   
+  color: white;
+  font-size: 10px;
+  margin-left: 18%;
+  padding-top: 9px;
 }
 
-.text_h2_endereco{
-    color:white;
-    
+n .subtext {
+  display: flex;
+  margin-left: 52vmin;
+  width: 280px;
+  justify-content: flex-start;
+  height: 10px;
+
+}
+
+.text_h2_endereco {
+  color: white;
+
 }
 
 /*estilizei o botstrap de determinados elementos*/
 #back-to-top {
-    position: fixed;
-    right: 20px;
-    color: white;
-    font-weight: bold;
-    border-radius: 3%;
-    
-  }  
-  
-.toggle-btn{
-    width:35px;
-    position:relative;
-    right:-50px;
-    top:1rem;
-    display: none;
-}
-
-.toggle-btn span{
-     width:100%;
-     height:2px;
-     background-color:#000000 ;
-     float:right;
-     margin-bottom: 8px;
-}
-
-  .butao_voltar_ao_topo{
-     background-color: #0a8b06;
-     border: #0a8b06;
-  } 
-
-
-  hr{
-    width: 110px;
-    margin-left: 0.8rem;
-    display: none;
-  }
-
-  /*inicialização de media querys*/
-  @media screen and (max-width:412px) and (min-width: 411px){
-        body{
-          width: 47%;
-          touch-action: pan-y;
-        }
-        .textosecao2{
-            font-size:1rem;
-            margin-top: 1rem;
-        }
-        .texto_secao3{
-            font-size:1.1rem;
-        }
-        .aumentartamanho_h6{
-            font-size: 0.5rem ;
-        }
-        .img_selletiva_mobile{
-            width: 95px;
-            height: 40px;
-            margin-top: -6rem;    
-            margin-left: 8.5rem;
-            position: absolute;
-        }
-    .svgTelefone{
-        width: 28px;
-        height: 18px;
-    }
-    .svgWhatsapp{
-        width:28px;
-        height:18px;
-    }
-    .svgEmail{
-        width:28px;
-        height: 18px;
-    }
-        .telefone{
-            width: 70px;
-            height: 50px;
-            
-        }
-        .whatsapp{
-            width: 75px;
-            height: 50px;
-
-        }
-        .email{
-            width: 160px;
-            height: 48px;
-            
-        }
-       .imagens{
-        margin-left: -20.5rem;
-        padding-top: 6.5rem;
-        gap: 1rem;
-        width: 1px;
-        position: absolute;
-    
-       }
-
-        .div_bandeiras{
-            width: 43rem;
-        
-        }
-        
-        .secao1{
-           width: 0.5rem;
-           margin-left:30rem;
-        }
-
-        .bandeiras{
-            width:3vh;
-            margin-left:-85rem;
-        }
-.menuCelular{
-    display: flex;
-     margin-top: -2rem;
-    margin-left: -2rem;
-}
-         .toggle-btn{
-            display: block;
-            width: 2rem;
-            height: 2rem;
-            margin-left: -0.5rem;
-         }
-
-         ul{
-            display:none;
-         }
-
-         ul.show{
-             display:block;
-             margin-left: -20rem;
-             margin-top: -2rem;
-             display: none;
-         }
-          
-         .botoes{
-            border:none;
-            display: flex;
-            align-items: center;
-            justify-content: right;
-         }
-
-         .link_text_botoes{
-               color:black;
-               
-         }
-        .css_grid{
-            grid-template-columns: 8rem 8rem 8rem ;
-            height: 60%;
-            margin-top: 70px;
-            margin-left:-0.85rem;
-        }
-        .css_grid a{
-            padding: 5px;
-            font-size: 10px;
-            text-align: center;
-        }
-        .texto_img_secao5{
-            font-size:0.6rem;
-        }
-        .conteudosecao5{
-            gap:3rem;
-        }
-        .empresa{
-            width: 120px;
-            height: 120px;
-        }
-        .pessoas{
-            width: 180px;
-            height: 100px;
-            margin-top: 76px;
-
-        }
-      .div_fotos_funcionarios{
-        margin-top:-75px;
-      }
-
-    .imgFuncionario{
-        width: 140px;
-        height: 140px;
-    }
-     .divsecao2{
-        gap: 40px;
-     }
-     .imgSecao2{
-        width: 40px;
-        height: 40px;
-     }
-     .elementosecao2{
-       font-size: 18px;
-     }
- .texto_secao3{
-    font-size:0.9rem;
-    width: 22rem;
- }
- .textosecao5{
-     font-size:24px;
- }
- .svgSecao5{
-    width: 30px ;
-    height: 30px ;
- }
- .conteudosecao5{
-    flex-direction: column;
- }
- .secao5{
-    height: 540px;
- }
- .div_empresas{
-    flex-direction: column;
- }
- .secao6{
-    height: 700px;
- }
- .img_empresa1{
-    width: 60px;
-    height: 60px;
-    padding-left: 18px;
- }
- .img_empresa2{
-    width:75px ;
-    height:75px ;
-    padding-left: 10px;
- }
- .img_empresa3{
-    width: 89px;
-    height: 26px;
- }
- .img_empresa4{
-    width: 89px;
-    height: 31px;
- }
- .img_empresa5{
-    width: 89px;
-    height: 66px;
- }
-.div_fotos_funcionarios {
-    flex-direction: column;
-    margin-left: 3rem;
-}
-.secao7 {
-    height: 1000px;
-}
-.nome_pessoas{
-    width: 140px;
-}
-.h2_secao7{
-   font-size: 15px;
-}
-.butao_voltar_ao_topo{
-    display: none;
+  position: fixed;
+  right: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 3%;
 
 }
-.ji{
-    display: none;
-}
-.texto_copyright{
- margin-left: 24%;
-}
-.produtossec8{
-    flex-direction: column;
-}
-.secao8{
-    height: 1010px;
-}
-.produto{
-    margin-left: -4rem;
-   
-}
-.imgSecao8{
-    width: 190px;
-    height: 190px;
-}
-footer{
-    height: 200px;
-}
-.divEndereco{
-    margin-left: -39rem;
-}
-.text_h2_endereco{
-    font-size: 10px;
-}
-.footer_endereco{
-   font-size:7px;
-}
-.imgRedeSocial{
-    width: 10px;
-}
-.rede_social{
-    margin-left: -5rem;
-}
-.div_img_redesocial{
-    width: 2rem;
-    height: 2rem;
-}
-  }
 
-  @media only screen and (max-width: 405px) and (min-width: 404px)  {
-    body{
-        width: 47%;
-        touch-action: pan-y;
-      }
-      .textosecao2{
-          font-size:1rem;
-          margin-top: 1rem;
-      }
-      .texto_secao3{
-          font-size:1.1rem;
-      }
-      .aumentartamanho_h6{
-          font-size: 0.5rem ;
-      }
-      .img_selletiva_mobile{
-          width: 95px;
-          height: 40px;
-          margin-top: -6rem;    
-          margin-left: 8.5rem;
-          position: absolute;
-      }
-  .svgTelefone{
-      width: 28px;
-      height: 18px;
-  }
-  .svgWhatsapp{
-      width:28px;
-      height:18px;
-  }
-  .svgEmail{
-      width:28px;
-      height: 18px;
-  }
-      .telefone{
-          width: 70px;
-          height: 50px;
-          
-      }
-      .whatsapp{
-          width: 75px;
-          height: 50px;
-
-      }
-      .email{
-          width: 160px;
-          height: 48px;
-          
-      }
-     .imagens{
-      margin-left: -20.5rem;
-      padding-top: 6.5rem;
-      gap: 1rem;
-      width: 1px;
-      position: absolute;
-  
-     }
-
-      .div_bandeiras{
-          width: 43rem;
-      
-      }
-      
-      .secao1{
-         width: 0.5rem;
-         margin-left:30rem;
-      }
-
-      .bandeiras{
-          width:3vh;
-          margin-left:-78rem;
-      }
-.menuCelular{
-  display: flex;
-   margin-top: -2rem;
-  margin-left: -2rem;
-}
-       .toggle-btn{
-          display: block;
-          width: 2rem;
-          height: 2rem;
-          margin-left: -0.5rem;
-       }
-
-       ul{
-          display:none;
-       }
-
-       ul.show{
-           display:block;
-           margin-left: -20rem;
-           margin-top: -2rem;
-           display: none;
-       }
-        
-       .botoes{
-          border:none;
-          display: flex;
-          align-items: center;
-          justify-content: right;
-       }
-
-       .link_text_botoes{
-             color:black;
-             
-       }
-      .css_grid{
-          grid-template-columns: 8rem 8rem 8rem ;
-          height: 60%;
-          margin-top: 70px;
-          margin-left:-0.85rem;
-      }
-      .css_grid a{
-          padding: 5px;
-          font-size: 10px;
-          text-align: center;
-      }
-      .texto_img_secao5{
-          font-size:0.6rem;
-      }
-      .conteudosecao5{
-          gap:3rem;
-      }
-      .empresa{
-          width: 120px;
-          height: 120px;
-      }
-      .pessoas{
-          width: 180px;
-          height: 100px;
-          margin-top: 76px;
-
-      }
-    .div_fotos_funcionarios{
-      margin-top:-75px;
-    }
-
-  .imgFuncionario{
-      width: 140px;
-      height: 140px;
-  }
-   .divsecao2{
-      gap: 40px;
-   }
-   .imgSecao2{
-      width: 40px;
-      height: 40px;
-   }
-   .elementosecao2{
-     font-size: 18px;
-   }
-.texto_secao3{
-  font-size:0.9rem;
-  width: 22rem;
-}
-.textosecao5{
-   font-size:24px;
-}
-.svgSecao5{
-  width: 30px ;
-  height: 30px ;
-}
-.conteudosecao5{
-  flex-direction: column;
-}
-.secao5{
-  height: 540px;
-}
-.div_empresas{
-  flex-direction: column;
-}
-.secao6{
-  height: 700px;
-}
-.img_empresa1{
-  width: 60px;
-  height: 60px;
-  padding-left: 18px;
-}
-.img_empresa2{
-  width:75px ;
-  height:75px ;
-  padding-left: 10px;
-}
-.img_empresa3{
-  width: 89px;
-  height: 26px;
-}
-.img_empresa4{
-  width: 89px;
-  height: 31px;
-}
-.img_empresa5{
-  width: 89px;
-  height: 66px;
-}
-.div_fotos_funcionarios {
-  flex-direction: column;
-  margin-left: 3rem;
-}
-.secao7 {
-  height: 1000px;
-}
-.nome_pessoas{
-  width: 140px;
-}
-.h2_secao7{
- font-size: 15px;
-}
-.butao_voltar_ao_topo{
-  display: none;
-
-}
-.ji{
+.toggle-btn {
+  width: 35px;
+  position: relative;
+  right: -50px;
+  top: 1rem;
   display: none;
 }
-.texto_copyright{
-margin-left: 24%;
-}
-.produtossec8{
-  flex-direction: column;
-}
-.secao8{
-  height: 1010px;
-}
-.produto{
-  margin-left: -4rem;
- 
-}
-.imgSecao8{
-  width: 190px;
-  height: 190px;
-}
-footer{
-  height: 200px;
-}
-.divEndereco{
-  margin-left: -39rem;
-}
-.text_h2_endereco{
-  font-size: 10px;
-}
-.footer_endereco{
- font-size:7px;
-}
-.imgRedeSocial{
-  width: 10px;
-}
-.rede_social{
-  margin-left: -5rem;
-}
-.div_img_redesocial{
-  width: 2rem;
-  height: 2rem;
+
+.toggle-btn span {
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  float: right;
+  margin-bottom: 8px;
 }
 
-  }
+.butao_voltar_ao_topo {
+  background-color: #0a8b06;
+  border: #0a8b06;
+}
 
-  @media only screen and (max-width: 400px) and (min-width: 399px)  {
-    body{
-        width: 47%;
-        touch-action: pan-y;
-      }
-      .textosecao2{
-          font-size:1rem;
-          margin-top: 1rem;
-      }
-      .texto_secao3{
-          font-size:1.1rem;
-      }
-      .aumentartamanho_h6{
-          font-size: 0.5rem ;
-      }
-      .img_selletiva_mobile{
-          width: 95px;
-          height: 40px;
-          margin-top: -6rem;    
-          margin-left: 8.5rem;
-          position: absolute;
-      }
-  .svgTelefone{
-      width: 28px;
-      height: 18px;
-  }
-  .svgWhatsapp{
-      width:28px;
-      height:18px;
-  }
-  .svgEmail{
-      width:28px;
-      height: 18px;
-  }
-      .telefone{
-          width: 70px;
-          height: 50px;
-          
-      }
-      .whatsapp{
-          width: 75px;
-          height: 50px;
 
-      }
-      .email{
-          width: 160px;
-          height: 48px;
-          
-      }
-     .imagens{
-      margin-left: -20.5rem;
-      padding-top: 6.5rem;
-      gap: 1rem;
-      width: 1px;
-      position: absolute;
-  
-     }
-
-      .div_bandeiras{
-          width: 43rem;
-      
-      }
-      
-      .secao1{
-         width: 0.5rem;
-         margin-left:30rem;
-      }
-
-      .bandeiras{
-          width:3vh;
-          margin-left:-92rem;
-      }
-.menuCelular{
-  display: flex;
-   margin-top: -2rem;
-  margin-left: -2rem;
-}
-       .toggle-btn{
-          display: block;
-          width: 2rem;
-          height: 2rem;
-          margin-left: -0.5rem;
-       }
-
-       ul{
-          display:none;
-       }
-
-       ul.show{
-           display:block;
-           margin-left: -20rem;
-           margin-top: -2rem;
-           display: none;
-       }
-        
-       .botoes{
-          border:none;
-          display: flex;
-          align-items: center;
-          justify-content: right;
-       }
-
-       .link_text_botoes{
-             color:black;
-             
-       }
-      .css_grid{
-          grid-template-columns: 8rem 8rem 8rem ;
-          height: 60%;
-          margin-top: 70px;
-          margin-left:-0.85rem;
-      }
-      .css_grid a{
-          padding: 5px;
-          font-size: 10px;
-          text-align: center;
-      }
-      .texto_img_secao5{
-          font-size:0.6rem;
-      }
-      .conteudosecao5{
-          gap:3rem;
-      }
-      .empresa{
-          width: 120px;
-          height: 120px;
-      }
-      .pessoas{
-          width: 180px;
-          height: 100px;
-          margin-top: 76px;
-
-      }
-    .div_fotos_funcionarios{
-      margin-top:-75px;
-    }
-
-  .imgFuncionario{
-      width: 140px;
-      height: 140px;
-  }
-   .divsecao2{
-      gap: 40px;
-   }
-   .imgSecao2{
-      width: 40px;
-      height: 40px;
-   }
-   .elementosecao2{
-     font-size: 18px;
-   }
-.texto_secao3{
-  font-size:0.9rem;
-  width: 22rem;
-}
-.textosecao5{
-   font-size:24px;
-}
-.svgSecao5{
-  width: 30px ;
-  height: 30px ;
-}
-.conteudosecao5{
-  flex-direction: column;
-}
-.secao5{
-  height: 540px;
-}
-.div_empresas{
-  flex-direction: column;
-}
-.secao6{
-  height: 700px;
-}
-.img_empresa1{
-  width: 60px;
-  height: 60px;
-  padding-left: 18px;
-}
-.img_empresa2{
-  width:75px ;
-  height:75px ;
-  padding-left: 10px;
-}
-.img_empresa3{
-  width: 89px;
-  height: 26px;
-}
-.img_empresa4{
-  width: 89px;
-  height: 31px;
-}
-.img_empresa5{
-  width: 89px;
-  height: 66px;
-}
-.div_fotos_funcionarios {
-  flex-direction: column;
-  margin-left: 3rem;
-}
-.secao7 {
-  height: 1000px;
-}
-.nome_pessoas{
-  width: 140px;
-}
-.h2_secao7{
- font-size: 15px;
-}
-.butao_voltar_ao_topo{
-  display: none;
-
-}
-.ji{
+hr {
+  width: 110px;
+  margin-left: 0.8rem;
   display: none;
 }
-.texto_copyright{
-margin-left: 24%;
-}
-.produtossec8{
-  flex-direction: column;
-}
-.secao8{
-  height: 1010px;
-}
-.produto{
-  margin-left: -4rem;
- 
-}
-.imgSecao8{
-  width: 190px;
-  height: 190px;
-}
-footer{
-  height: 200px;
-}
-.divEndereco{
-  margin-left: -39rem;
-}
-.text_h2_endereco{
-  font-size: 10px;
-}
-.footer_endereco{
- font-size:7px;
-}
-.imgRedeSocial{
-  width: 10px;
-}
-.rede_social{
-  margin-left: -5rem;
-}
-.div_img_redesocial{
-  width: 2rem;
-  height: 2rem;
-}
 
-  }
-
-
-  @media only screen and (max-width: 360px) and (min-width: 359px)  {
-    body{
-        width: 47%;
-        touch-action: pan-y;
-      }
-      .textosecao2{
-          font-size:0.9rem;
-          margin-top: 1rem;
-      }
-      .texto_secao3{
-          font-size:1.1rem;
-      }
-      .aumentartamanho_h6{
-          font-size: 0.5rem ;
-      }
-      .img_selletiva_mobile{
-          width: 95px;
-          height: 40px;
-          margin-top: -6rem;    
-          margin-left: 8rem;
-          position: absolute;
-      }
-  .svgTelefone{
-      width: 16px;
-      height: 11px;
-  }
-  .svgWhatsapp{
-      width:16px;
-      height:11px;
-  }
-  .svgEmail{
-      width:16px;
-      height: 11px;
-  }
-      .telefone{
-          width: 70px;
-          height: 50px;
-          
-      }
-      .whatsapp{
-          width: 75px;
-          height: 50px;
-
-      }
-      .email{
-          width: 160px;
-          height: 48px;
-          
-      }
-     .imagens{
-      margin-left: -21rem;
-      padding-top: 6.5rem;
-      gap: 1rem;
-      width: 1px;
-      position: absolute;
-  
-     }
-
-      .div_bandeiras{
-          width: 43rem;
-      
-      }
-      
-      .secao1{
-         width: 0.5rem;
-         margin-left:30rem;
-      }
-
-      .bandeiras{
-          width:3vh;
-          margin-left:-73rem;
-      }
-.menuCelular{
-  display: flex;
-   margin-top: -2rem;
-  margin-left: -2rem;
-}
-       .toggle-btn{
-          display: block;
-          width: 2rem;
-          height: 2rem;
-          margin-left: -0.5rem;
-       }
-
-       ul{
-          display:none;
-       }
-
-       ul.show{
-           display:block;
-           margin-left: -20rem;
-           margin-top: -2rem;
-           display: none;
-       }
-        
-       .botoes{
-          border:none;
-          display: flex;
-          align-items: center;
-          justify-content: right;
-       }
-
-       .link_text_botoes{
-             color:black;
-             
-       }
-      .css_grid{
-          grid-template-columns: 7rem 7rem 7rem ;
-          height: 60%;
-          margin-top: 70px;
-          margin-left:-0.85rem;
-      }
-      .css_grid a{
-          padding: 5px;
-          font-size: 10px;
-          text-align: center;
-      }
-      .texto_img_secao5{
-          font-size:0.6rem;
-      }
-      .conteudosecao5{
-          gap:3rem;
-      }
-      .empresa{
-          width: 120px;
-          height: 120px;
-      }
-      .pessoas{
-          width: 180px;
-          height: 100px;
-          margin-top: 76px;
-
-      }
-    .div_fotos_funcionarios{
-      margin-top:-75px;
-    }
-
-  .imgFuncionario{
-      width: 140px;
-      height: 140px;
-  }
-   .divsecao2{
-      gap: 40px;
-   }
-   .imgSecao2{
-      width: 40px;
-      height: 40px;
-   }
-   .elementosecao2{
-     font-size: 18px;
-   }
-.texto_secao3{
-  font-size:0.9rem;
-  width: 20rem;
-}
-.textosecao5{
-   font-size:24px;
-}
-.svgSecao5{
-  width: 30px ;
-  height: 30px ;
-}
-.conteudosecao5{
-  flex-direction: column;
-}
-.secao5{
-  height: 540px;
-}
-.div_empresas{
-  flex-direction: column;
-}
-.secao6{
-  height: 700px;
-}
-.img_empresa1{
-  width: 60px;
-  height: 60px;
-  padding-left: 18px;
-}
-.img_empresa2{
-  width:75px ;
-  height:75px ;
-  padding-left: 10px;
-}
-.img_empresa3{
-  width: 89px;
-  height: 26px;
-}
-.img_empresa4{
-  width: 89px;
-  height: 31px;
-}
-.img_empresa5{
-  width: 89px;
-  height: 66px;
-}
-.div_fotos_funcionarios {
-  flex-direction: column;
-  margin-left: 3rem;
-}
-.secao7 {
-  height: 1000px;
-}
-.nome_pessoas{
-  width: 140px;
-}
-.h2_secao7{
- font-size: 15px;
-}
-.butao_voltar_ao_topo{
-  display: none;
-
-}
-.ji{
-  display: none;
-}
-.texto_copyright{
-margin-left: 24%;
-}
-.produtossec8{
-  flex-direction: column;
-  margin-left: -1.8rem;
-}
-.secao8{
-  height: 1010px;
-}
-.produto{
-  margin-left: -4rem;
- 
-}
-.imgSecao8{
-  width: 190px;
-  height: 190px;
-}
-footer{
-  height: 200px;
-}
-.divEndereco{
-  margin-left: -39rem;
-}
-.text_h2_endereco{
-  font-size: 10px;
-}
-.footer_endereco{
- font-size:7px;
-}
-.imgRedeSocial{
-  width: 10px;
-}
-.rede_social{
-  margin-left: -5rem;
-}
-.div_img_redesocial{
-  width: 2rem;
-  height: 2rem;
-}
-
-  }
-
-  @media only screen and (max-width: 317px) and (min-width: 316px)  {
-    body{
-        width: 47%;
-        touch-action: pan-y;
-      }
-      .textosecao2{
-          font-size:1rem;
-          margin-top: 1rem;
-      }
-      .texto_secao3{
-          font-size:1.1rem;
-      }
-      .aumentartamanho_h6{
-          font-size: 0.5rem ;
-      }
-      .img_selletiva_mobile{
-          width: 95px;
-          height: 40px;
-          margin-top: -6rem;    
-          margin-left: 6.3rem;
-          position: absolute;
-      }
-  .svgTelefone{
-      width: 28px;
-      height: 18px;
-      display: none;
-  }
-  .svgWhatsapp{
-      width:28px;
-      height:18px;
-      display: none;
-  }
-  .svgEmail{
-      width:28px;
-      height: 18px;
-      display: none;
-  }
-      .telefone{
-          width: 70px;
-          height: 50px;
-          
-      }
-      .whatsapp{
-          width: 75px;
-          height: 50px;
-
-      }
-      .email{
-          width: 160px;
-          height: 48px;
-
-      }
-     .imagens{
-      margin-left: -23rem;
-      padding-top: 6.5rem;
-      gap: 1rem;
-      width: 1px;
-      position: absolute;
-  
-     }
-
-      .div_bandeiras{
-          width: 43rem;
-      
-      }
-      
-      .secao1{
-         width: 0.5rem;
-         margin-left:30rem;
-      }
-
-      .bandeiras{
-          width:3vh;
-          margin-left:-83rem;
-      }
-.menuCelular{
-  display: flex;
-   margin-top: -2rem;
-  margin-left: -2rem;
-}
-       .toggle-btn{
-          display: block;
-          width: 2rem;
-          height: 2rem;
-          margin-left: -0.5rem;
-       }
-
-       ul{
-          display:none;
-       }
-
-       ul.show{
-           display:block;
-           margin-left: -20rem;
-           margin-top: -2rem;
-           display: none;
-       }
-        
-       .botoes{
-          border:none;
-          display: flex;
-          align-items: center;
-          justify-content: right;
-       }
-
-       .link_text_botoes{
-             color:black;
-             
-       }
-      .css_grid{
-          grid-template-columns: 6rem 6rem 6rem ;
-          height: 60%;
-          margin-top: 70px;
-          margin-left:-0.85rem;
-      }
-      .css_grid a{
-          padding: 5px;
-          font-size: 10px;
-          text-align: center;
-      }
-      .texto_img_secao5{
-          font-size:0.6rem;
-      }
-      .conteudosecao5{
-          gap:3rem;
-      }
-      .empresa{
-          width: 120px;
-          height: 120px;
-      }
-      .pessoas{
-          width: 180px;
-          height: 100px;
-          margin-top: 76px;
-
-      }
-    .div_fotos_funcionarios{
-      margin-top:-75px;
-    }
-
-  .imgFuncionario{
-      width: 140px;
-      height: 140px;
-  }
-   .divsecao2{
-      gap: 40px;
-   }
-   .imgSecao2{
-      width: 25px;
-      height: 25px;
-   }
-   .elementosecao2{
-     font-size: 1rem;
-   }
-.texto_secao3{
-  font-size:0.8rem;
-  width: 17rem;
-}
-.textosecao5{
-   font-size:24px;
-}
-.svgSecao5{
-  width: 30px ;
-  height: 30px ;
-}
-.conteudosecao5{
-  flex-direction: column;
-}
-.secao5{
-  height: 540px;
-}
-.div_empresas{
-  flex-direction: column;
-}
-.secao6{
-  height: 700px;
-}
-.img_empresa1{
-  width: 60px;
-  height: 60px;
-  padding-left: 18px;
-}
-.img_empresa2{
-  width:75px ;
-  height:75px ;
-  padding-left: 10px;
-}
-.img_empresa3{
-  width: 89px;
-  height: 26px;
-}
-.img_empresa4{
-  width: 89px;
-  height: 31px;
-}
-.img_empresa5{
-  width: 89px;
-  height: 66px;
-}
-.div_fotos_funcionarios {
-  flex-direction: column;
-  margin-left: 3rem;
-}
-.secao7 {
-  height: 1000px;
-}
-.nome_pessoas{
-  width: 140px;
-}
-.h2_secao7{
- font-size: 15px;
-}
-.butao_voltar_ao_topo{
-  display: none;
-
-}
-.ji{
-  display: none;
-}
-.texto_copyright{
-margin-left: 19%;
-}
-.produtossec8{
-  flex-direction: column;
-  margin-left: -3rem;
-}
-.secao8{
-  height: 1010px;
-}
-.produto{
-  margin-left: -4rem;
- 
-}
-.imgSecao8{
-  width: 190px;
-  height: 190px;
-}
-footer{
-  height: 200px;
-}
-.divEndereco{
-  margin-left: -39rem;
-}
-.text_h2_endereco{
-  font-size: 10px;
-}
-.footer_endereco{
- font-size:7px;
-}
-.imgRedeSocial{
-  width: 10px;
-}
-.rede_social{
-  margin-left: -5rem;
-}
-.div_img_redesocial{
-  width: 2rem;
-  height: 2rem;
-}
-
-  }
-
-
-  @media only screen and (max-width: 1024px) and (min-width: 1023px)  {
-    body{
-        width: 47%;
-        touch-action: pan-y;
-      }
-      .textosecao2{
-          font-size:1rem;
-          margin-top: 1rem;
-      }
-      .texto_secao3{
-          font-size:1.1rem;
-      }
-      .aumentartamanho_h6{
-          font-size: 0.7rem ;
-          width: 5rem;
-      }
-      .img_selletiva_mobile{
-          width: 95px;
-          height: 40px;
-           
-        
-          
-      }
-  .svgTelefone{
-      width: 56px;
-      height: 26px;
-      
-  }
-  .svgWhatsapp{
-      width:56px;
-      height:26px;
-      
-  }
-  .svgEmail{
-      width:56px;
-      height: 26px;
-  }
-      
-     .imagens{
-      margin-left: 1rem;
-      padding-top: 2.9rem;
-      gap: 3rem;
-      width: 1px;
-      position: absolute;
-  
-     }
-
-      .div_bandeiras{
-          width: 64rem;
-          
-      }
-      
-      .secao1{
-         width: 0.5rem;
-         margin-left:30rem;
-         height: 5rem;
-      }
-
-      .bandeiras{
-          width:3vh;
-          margin-left:-21rem;
-      }
-.menuCelular{
-  display: flex;
-   margin-top: -2rem;
-  margin-left: -2rem;
-}
-       .toggle-btn{
-          display: block;
-          width: 2rem;
-          height: 2rem;
-          margin-left: -0.5rem;
-       }
-
-       ul{
-          display:none;
-       }
-
-       ul.show{
-           display:block;
-           margin-left: -20rem;
-           margin-top: -2rem;
-           display: none;
-       }
-        
-       .botoes{
-          border:none;
-          display: flex;
-          align-items: center;
-          justify-content: right;
-       }
-
-       .link_text_botoes{
-             color:black;
-             
-       }
-      .css_grid{
-          grid-template-columns: 11rem 11rem 11rem ;
-          height: 60%;
-          margin-top: 70px;
-          margin-left:1rem;
-      }
-      .css_grid a{
-          padding: 5px;
-          font-size: 10px;
-          text-align: center;
-      }
-      .texto_img_secao5{
-          font-size:0.6rem;
-      }
-      .conteudosecao5{
-          gap:3rem;
-      }
-      .empresa{
-          width: 120px;
-          height: 120px;
-      }
-      .pessoas{
-          width: 180px;
-          height: 100px;
-          margin-top: 76px;
-
-      }
-    .div_fotos_funcionarios{
-      margin-top:-75px;
-    }
-
-  .imgFuncionario{
-      width: 140px;
-      height: 140px;
-  }
-   .divsecao2{
-      gap: 40px;
-   }
-   .imgSecao2{
-      width: 25px;
-      height: 25px;
-   }
-   .elementosecao2{
-     font-size: 1rem;
-   }
-.texto_secao3{
-  font-size:0.8rem;
-  width: 30rem;
-}
-.textosecao5{
-   font-size:24px;
-}
-.svgSecao5{
-  width: 30px ;
-  height: 30px ;
-}
-.conteudosecao5{
-  flex-direction: column;
-}
-.secao5{
-  height: 540px;
-}
-.div_empresas{
-  flex-direction: column;
-}
-.secao6{
-  height: 700px;
-}
-.img_empresa1{
-  width: 60px;
-  height: 60px;
-  padding-left: 18px;
-}
-.img_empresa2{
-  width:75px ;
-  height:75px ;
-  padding-left: 10px;
-}
-.img_empresa3{
-  width: 89px;
-  height: 26px;
-}
-.img_empresa4{
-  width: 89px;
-  height: 31px;
-}
-.img_empresa5{
-  width: 89px;
-  height: 66px;
-}
-.div_fotos_funcionarios {
-  flex-direction: column;
-  margin-left: 3rem;
-}
-.secao7 {
-  height: 1000px;
-}
-.nome_pessoas{
-  width: 140px;
-}
-.h2_secao7{
- font-size: 15px;
-}
-
-.texto_copyright{
-margin-left: 40%;
-}
-.produtossec8{
-  flex-direction: column;
-  margin-left: 5rem;
-}
-.secao8{
-  height: 1010px;
-}
-.produto{
-  margin-left: -4rem;
- 
-}
-.imgSecao8{
-  width: 190px;
-  height: 190px;
-}
-footer{
-  height: 200px;
-}
-.divEndereco{
-  margin-left: -39rem;
-}
-.text_h2_endereco{
-  font-size: 10px;
-}
-.footer_endereco{
- font-size:7px;
-}
-.imgRedeSocial{
-  width: 10px;
-}
-.rede_social{
-  margin-left: -5rem;
-}
-.div_img_redesocial{
-  width: 2rem;
-  height: 2rem;
-}
-
-  }
-
-  @media only screen and (max-width: 688px) and (min-width: 687px)  {
-    body{
-        width: 47%;
-        touch-action: pan-y;
-      }
-      .textosecao2{
-          font-size:1rem;
-          margin-top: 1rem;
-      }
-      .texto_secao3{
-          font-size:1.1rem;
-      }
-      .aumentartamanho_h6{
-          font-size: 0.7rem ;
-          width: 5rem;
-      }
-      .img_selletiva_mobile{
-          width: 95px;
-          height: 40px;
-           
-        
-          
-      }
-  .svgTelefone{
-      width: 56px;
-      height: 26px;
-      
-  }
-  .svgWhatsapp{
-      width:56px;
-      height:26px;
-      
-  }
-  .svgEmail{
-      width:56px;
-      height: 26px;
-  }
-  .telefone{
-    display: block;    
-}
-.whatsapp{
-     display: block;
- 
-}
-.email{
-   display: block;
-
-}
-     .imagens{
-      margin-left: -12rem;
-      padding-top: 6.5rem;
-      gap: 3rem;
-      width: 1px;
-      position: absolute;
-  
-     }
-
-      .div_bandeiras{
-          width: 64rem;
-      
-      }
-      
-      .secao1{
-         width: 0.5rem;
-         margin-left:30rem;
-      }
-
-      .bandeiras{
-          width:3vh;
-          margin-left:-99rem;
-      }
-.menuCelular{
-  display: flex;
-   margin-top: -2rem;
-  margin-left: -2rem;
-}
-       .toggle-btn{
-          display: block;
-          width: 2rem;
-          height: 2rem;
-          margin-left: -0.5rem;
-       }
-
-       ul{
-          display:none;
-       }
-
-       ul.show{
-           display:block;
-           margin-left: -20rem;
-           margin-top: -2rem;
-           display: none;
-       }
-        
-       .botoes{
-          border:none;
-          display: flex;
-          align-items: center;
-          justify-content: right;
-       }
-
-       .link_text_botoes{
-             color:black;
-             
-       }
-      .css_grid{
-          grid-template-columns: 11rem 11rem 11rem ;
-          height: 60%;
-          margin-top: 70px;
-          margin-left:1rem;
-      }
-      .css_grid a{
-          padding: 5px;
-          font-size: 10px;
-          text-align: center;
-      }
-      .texto_img_secao5{
-          font-size:0.6rem;
-      }
-      .conteudosecao5{
-          gap:3rem;
-      }
-      .empresa{
-          width: 120px;
-          height: 120px;
-      }
-      .pessoas{
-          width: 180px;
-          height: 100px;
-          margin-top: 76px;
-
-      }
-    .div_fotos_funcionarios{
-      margin-top:-75px;
-    }
-
-  .imgFuncionario{
-      width: 140px;
-      height: 140px;
-  }
-   .divsecao2{
-      gap: 40px;
-   }
-   .imgSecao2{
-      width: 25px;
-      height: 25px;
-   }
-   .elementosecao2{
-     font-size: 1rem;
-   }
-.texto_secao3{
-  font-size:0.8rem;
-  width: 30rem;
-}
-.textosecao5{
-   font-size:24px;
-}
-.svgSecao5{
-  width: 30px ;
-  height: 30px ;
-}
-.conteudosecao5{
-  flex-direction: column;
-}
-.secao5{
-  height: 540px;
-}
-.div_empresas{
-  flex-direction: column;
-}
-.secao6{
-  height: 700px;
-}
-.img_empresa1{
-  width: 60px;
-  height: 60px;
-  padding-left: 18px;
-}
-.img_empresa2{
-  width:75px ;
-  height:75px ;
-  padding-left: 10px;
-}
-.img_empresa3{
-  width: 89px;
-  height: 26px;
-}
-.img_empresa4{
-  width: 89px;
-  height: 31px;
-}
-.img_empresa5{
-  width: 89px;
-  height: 66px;
-}
-.div_fotos_funcionarios {
-  flex-direction: column;
-  margin-left: 3rem;
-}
-.secao7 {
-  height: 1000px;
-}
-.nome_pessoas{
-  width: 140px;
-}
-.h2_secao7{
- font-size: 15px;
-}
-
-.texto_copyright{
-margin-left: 35%;
-}
-.produtossec8{
-  flex-direction: column;
-  margin-left: 5rem;
-}
-.secao8{
-  height: 1010px;
-}
-.produto{
-  margin-left: -4rem;
- 
-}
-.imgSecao8{
-  width: 190px;
-  height: 190px;
-}
-footer{
-  height: 200px;
-}
-.divEndereco{
-  margin-left: -39rem;
-}
-.text_h2_endereco{
-  font-size: 10px;
-}
-.footer_endereco{
- font-size:7px;
-}
-.imgRedeSocial{
-  width: 10px;
-}
-.rede_social{
-  margin-left: -5rem;
-}
-.div_img_redesocial{
-  width: 2rem;
-  height: 2rem;
-}
-
-  }
-
-
-  @media only screen and (max-width: 391px) and (min-width: 389px)  {
-    body{
-        width: 47%;
-        touch-action: pan-y;
-      }
-      .textosecao2{
-          font-size:1rem;
-          margin-top: 1rem;
-      }
-      .texto_secao3{
-          font-size:1.1rem;
-      }
-      .aumentartamanho_h6{
-          font-size: 0.5rem ;
-      }
-      .img_selletiva_mobile{
-          width: 95px;
-          height: 40px;
-          margin-top: -6rem;    
-          margin-left: 8.5rem;
-          position: absolute;
-      }
-  .svgTelefone{
-      width: 28px;
-      height: 18px;
-  }
-  .svgWhatsapp{
-      width:28px;
-      height:18px;
-  }
-  .svgEmail{
-      width:28px;
-      height: 18px;
-  }
-      .telefone{
-          width: 70px;
-          height: 50px;
-          
-      }
-      .whatsapp{
-          width: 75px;
-          height: 50px;
-
-      }
-      .email{
-          width: 160px;
-          height: 48px;
-          
-      }
-     .imagens{
-      margin-left: -20.5rem;
-      padding-top: 6.5rem;
-      gap: 1rem;
-      width: 1px;
-      position: absolute;
-  
-     }
-
-      .div_bandeiras{
-          width: 43rem;
-      
-      }
-      
-      .secao1{
-         width: 0.5rem;
-         margin-left:30rem;
-      }
-
-      .bandeiras{
-          width:3vh;
-          margin-left:-63rem;
-      }
-.menuCelular{
-  display: flex;
-   margin-top: -2rem;
-  margin-left: -2rem;
-}
-       .toggle-btn{
-          display: block;
-          width: 2rem;
-          height: 2rem;
-          margin-left: -0.5rem;
-       }
-
-       ul{
-          display:none;
-       }
-
-       ul.show{
-           display:block;
-           margin-left: -20rem;
-           margin-top: -2rem;
-           display: none;
-       }
-        
-       .botoes{
-          border:none;
-          display: flex;
-          align-items: center;
-          justify-content: right;
-       }
-
-       .link_text_botoes{
-             color:black;
-             
-       }
-      .css_grid{
-          grid-template-columns: 8rem 8rem 8rem ;
-          height: 60%;
-          margin-top: 70px;
-          margin-left:-0.85rem;
-      }
-      .css_grid a{
-          padding: 5px;
-          font-size: 10px;
-          text-align: center;
-      }
-      .texto_img_secao5{
-          font-size:0.6rem;
-      }
-      .conteudosecao5{
-          gap:3rem;
-      }
-      .empresa{
-          width: 120px;
-          height: 120px;
-      }
-      .pessoas{
-          width: 180px;
-          height: 100px;
-          margin-top: 76px;
-
-      }
-    .div_fotos_funcionarios{
-      margin-top:-75px;
-    }
-
-  .imgFuncionario{
-      width: 140px;
-      height: 140px;
-  }
-   .divsecao2{
-      gap: 40px;
-   }
-   .imgSecao2{
-      width: 40px;
-      height: 40px;
-   }
-   .elementosecao2{
-     font-size: 18px;
-   }
-.texto_secao3{
-  font-size:0.9rem;
-  width: 22rem;
-}
-.textosecao5{
-   font-size:24px;
-}
-.svgSecao5{
-  width: 30px ;
-  height: 30px ;
-}
-.conteudosecao5{
-  flex-direction: column;
-}
-.secao5{
-  height: 540px;
-}
-.div_empresas{
-  flex-direction: column;
-}
-.secao6{
-  height: 700px;
-}
-.img_empresa1{
-  width: 60px;
-  height: 60px;
-  padding-left: 18px;
-}
-.img_empresa2{
-  width:75px ;
-  height:75px ;
-  padding-left: 10px;
-}
-.img_empresa3{
-  width: 89px;
-  height: 26px;
-}
-.img_empresa4{
-  width: 89px;
-  height: 31px;
-}
-.img_empresa5{
-  width: 89px;
-  height: 66px;
-}
-.div_fotos_funcionarios {
-  flex-direction: column;
-  margin-left: 3rem;
-}
-.secao7 {
-  height: 1000px;
-}
-.nome_pessoas{
-  width: 140px;
-}
-.h2_secao7{
- font-size: 15px;
-}
-.butao_voltar_ao_topo{
-  display: none;
-
-}
-.ji{
-  display: none;
-}
-.texto_copyright{
-margin-left: 24%;
-}
-.produtossec8{
-  flex-direction: column;
-}
-.secao8{
-  height: 1010px;
-}
-.produto{
-  margin-left: -4rem;
- 
-}
-.imgSecao8{
-  width: 190px;
-  height: 190px;
-}
-footer{
-  height: 200px;
-}
-.divEndereco{
-  margin-left: -39rem;
-}
-.text_h2_endereco{
-  font-size: 10px;
-}
-.footer_endereco{
- font-size:7px;
-}
-.imgRedeSocial{
-  width: 10px;
-}
-.rede_social{
-  margin-left: -5rem;
-}
-.div_img_redesocial{
-  width: 2rem;
-  height: 2rem;
-}
-
-  }
-
-@media only screen and (max-width: 1229px) and (min-width: 1228px)  {
-  
-  .texto_secao3{
-     font-size:1.8rem;
-   }
-   .butao_voltar_ao_topo{
-   width: 85px;
-   height: 65px;
- } 
-
- .ji{
-  width: 3rem;
-  height: 3rem;
-  margin-top: -12px;
- }
- .imgFuncionario{
-  width: 220px;
-  height: 220px;
-}
-}
-
-@media only screen and (max-width: 878px) and (min-width: 876px)  {
-  body{
+/*inicialização de media querys*/
+@media screen and (max-width:412px) and (min-width: 411px) {
+  body {
     width: 47%;
     touch-action: pan-y;
   }
-  .textosecao2{
-      font-size:1rem;
-      margin-top: 1rem;
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
   }
 
-  .aumentartamanho_h6{
-      font-size: 0.7rem ;
-      width: 5rem;
-  }
-  .img_selletiva_mobile{
-      width: 95px;
-      height: 40px;
-  }
-.svgTelefone{
-  width: 56px;
-  height: 26px;
-  
-}
-.svgWhatsapp{
-  width:56px;
-  height:26px;
-  
-}
-.svgEmail{
-  width:56px;
-  height: 26px;
-}
-.telefone{
-display: block;    
-}
-.whatsapp{
- display: block;
-
-}
-.email{
-display: block;
-
-}
- .imagens{
-  margin-left: -5rem;
-  padding-top: 4rem;
-  gap: 3rem;
-  width: 1px;
-  position: absolute;
-
- }
-
-  .div_bandeiras{
-      width: 64rem;
-  
-  }
-  
-  .secao1{
-     width: 0.5rem;
-     margin-left:30rem;
+  .texto_secao3 {
+    font-size: 1.1rem;
   }
 
-  .sub_bandeiras{
-      width:36vh;
-      margin-left:-8rem;
-    
+  .aumentartamanho_h6 {
+    font-size: 0.5rem;
   }
 
-.menuCelular{
-display: flex;
-margin-top: -2rem;
-margin-left: -2rem;
-}
-   .toggle-btn{
-      display: block;
-      width: 2rem;
-      height: 2rem;
-      margin-left: -0.5rem;
-   }
-
-   ul{
-      display:none;
-   }
-
-   ul.show{
-       display:block;
-       margin-left: -20rem;
-       margin-top: -2rem;
-       display: none;
-   }
-    
-   .botoes{
-      border:none;
-      display: flex;
-      align-items: center;
-      justify-content: right;
-   }
-
-   .link_text_botoes{
-         color:black;
-         
-   }
-  .css_grid{
-      grid-template-columns: 11rem 11rem 11rem ;
-      height: 60%;
-      margin-top: 70px;
-      margin-left:1rem;
-  }
-  .css_grid a{
-      padding: 5px;
-      font-size: 10px;
-      text-align: center;
-  }
-  .texto_img_secao5{
-      font-size:0.6rem;
-  }
-  .conteudosecao5{
-      gap:3rem;
-  }
-  .empresa{
-      width: 120px;
-      height: 120px;
-  }
-  .pessoas{
-      width: 180px;
-      height: 100px;
-      margin-top: 76px;
-
-  }
-.div_fotos_funcionarios{
-  margin-top:-75px;
-}
-
-.imgFuncionario{
-  width: 140px;
-  height: 140px;
-}
-.divsecao2{
-  gap: 40px;
-}
-.imgSecao2{
-  width: 25px;
-  height: 25px;
-}
-.elementosecao2{
- font-size: 1rem;
-}
-.texto_secao3{
-font-size:1.2rem;
-width: 50rem;
-}
-.textosecao5{
-font-size:24px;
-}
-.svgSecao5{
-width: 30px ;
-height: 30px ;
-}
-.conteudosecao5{
-flex-direction: column;
-}
-.secao5{
-height: 540px;
-}
-.div_empresas{
-flex-direction: column;
-}
-.secao6{
-height: 700px;
-}
-.img_empresa1{
-width: 60px;
-height: 60px;
-padding-left: 18px;
-}
-.img_empresa2{
-width:75px ;
-height:75px ;
-padding-left: 10px;
-}
-.img_empresa3{
-width: 89px;
-height: 26px;
-}
-.img_empresa4{
-width: 89px;
-height: 31px;
-}
-.img_empresa5{
-width: 89px;
-height: 66px;
-}
-.div_fotos_funcionarios {
-flex-direction: column;
-margin-left: 3rem;
-}
-.secao7 {
-height: 1000px;
-}
-.nome_pessoas{
-width: 140px;
-}
-.h2_secao7{
-font-size: 15px;
-}
-
-.texto_copyright{
-margin-left: 35%;
-}
-.produtossec8{
-flex-direction: column;
-margin-left: 5rem;
-}
-.secao8{
-height: 1010px;
-}
-.produto{
-margin-left: -4rem;
-
-}
-.imgSecao8{
-width: 190px;
-height: 190px;
-}
-footer{
-height: 200px;
-}
-.divEndereco{
-margin-left: -39rem;
-}
-.text_h2_endereco{
-font-size: 10px;
-}
-.footer_endereco{
-font-size:7px;
-}
-.imgRedeSocial{
-width: 10px;
-}
-.rede_social{
-margin-left: -5rem;
-}
-.div_img_redesocial{
-width: 2rem;
-height: 2rem;
-}
-  
-}
-
-@media only screen and (max-width: 768px) and (min-width: 767px)  {
-  body{
-    width: 47%;
-    touch-action: pan-y;
-  }
-  .textosecao2{
-      font-size:1rem;
-      margin-top: 1rem;
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+    margin-top: -6rem;
+    margin-left: 8.5rem;
+    position: absolute;
   }
 
-  .aumentartamanho_h6{
-      font-size: 0.7rem ;
-      width: 5rem;
-  }
-  .img_selletiva_mobile{
-      width: 95px;
-      height: 40px;
-  }
-.svgTelefone{
-  width: 56px;
-  height: 26px;
-  
-}
-.svgWhatsapp{
-  width:56px;
-  height:26px;
-  
-}
-.svgEmail{
-  width:56px;
-  height: 26px;
-}
-.telefone{
-display: block;    
-}
-.whatsapp{
- display: block;
-
-}
-.email{
-display: block;
-
-}
- .imagens{
-  margin-left: -9rem;
-  padding-top: 4rem;
-  gap: 3rem;
-  width: 1px;
-  position: absolute;
-
- }
-
-  .div_bandeiras{
-      width: 64rem;
-  
-  }
-  
-  .secao1{
-     width: 0.5rem;
-     margin-left:30rem;
-  }
-
-  .sub_bandeiras{
-      width:36vh;
-      margin-left:-10rem;
-    
-  }
-
-.menuCelular{
-display: flex;
-margin-top: -2rem;
-margin-left: -2rem;
-}
-   .toggle-btn{
-      display: block;
-      width: 2rem;
-      height: 2rem;
-      margin-left: -0.5rem;
-   }
-
-   ul{
-      display:none;
-   }
-
-   ul.show{
-       display:block;
-       margin-left: -20rem;
-       margin-top: -2rem;
-       display: none;
-   }
-    
-   .botoes{
-      border:none;
-      display: flex;
-      align-items: center;
-      justify-content: right;
-   }
-
-   .link_text_botoes{
-         color:black;
-         
-   }
-  .css_grid{
-      grid-template-columns: 11rem 11rem 11rem ;
-      height: 60%;
-      margin-top: 70px;
-      margin-left:1rem;
-  }
-  .css_grid a{
-      padding: 5px;
-      font-size: 10px;
-      text-align: center;
-  }
-  .texto_img_secao5{
-      font-size:0.6rem;
-  }
-  .conteudosecao5{
-      gap:3rem;
-  }
-  .empresa{
-      width: 120px;
-      height: 120px;
-  }
-  .pessoas{
-      width: 180px;
-      height: 100px;
-      margin-top: 76px;
-
-  }
-.div_fotos_funcionarios{
-  margin-top:-75px;
-}
-
-.imgFuncionario{
-  width: 140px;
-  height: 140px;
-}
-.divsecao2{
-  gap: 40px;
-}
-.imgSecao2{
-  width: 25px;
-  height: 25px;
-}
-.elementosecao2{
- font-size: 1rem;
-}
-.texto_secao3{
-font-size:1.2rem;
-width: 50rem;
-}
-.textosecao5{
-font-size:24px;
-}
-.svgSecao5{
-width: 30px ;
-height: 30px ;
-}
-.conteudosecao5{
-flex-direction: column;
-}
-.secao5{
-height: 540px;
-}
-.div_empresas{
-flex-direction: column;
-}
-.secao6{
-height: 700px;
-}
-.img_empresa1{
-width: 60px;
-height: 60px;
-padding-left: 18px;
-}
-.img_empresa2{
-width:75px ;
-height:75px ;
-padding-left: 10px;
-}
-.img_empresa3{
-width: 89px;
-height: 26px;
-}
-.img_empresa4{
-width: 89px;
-height: 31px;
-}
-.img_empresa5{
-width: 89px;
-height: 66px;
-}
-.div_fotos_funcionarios {
-flex-direction: column;
-margin-left: 3rem;
-}
-.secao7 {
-height: 1000px;
-}
-.nome_pessoas{
-width: 140px;
-}
-.h2_secao7{
-font-size: 15px;
-}
-
-.texto_copyright{
-margin-left: 35%;
-}
-.produtossec8{
-flex-direction: column;
-margin-left: 4rem;
-}
-.secao8{
-height: 1010px;
-}
-.produto{
-margin-left: -4rem;
-
-}
-.imgSecao8{
-width: 190px;
-height: 190px;
-}
-footer{
-height: 200px;
-}
-.divEndereco{
-margin-left: -39rem;
-}
-.text_h2_endereco{
-font-size: 10px;
-}
-.footer_endereco{
-font-size:7px;
-}
-.imgRedeSocial{
-width: 10px;
-}
-.rede_social{
-margin-left: -5rem;
-}
-.div_img_redesocial{
-width: 2rem;
-height: 2rem;
-}
-  
-}
-
-@media only screen and (max-width: 615px) and (min-width: 613px)  {
-  body{
-    width: 47%;
-    touch-action: pan-y;
-  }
-  .textosecao2{
-      font-size:1rem;
-      margin-top: 1rem;
-  }
-
-  .aumentartamanho_h6{
-      font-size: 0.7rem ;
-      width: 5rem;
-  }
-  .img_selletiva_mobile{
-      width: 95px;
-      height: 40px;
-  }
-.svgTelefone{
-  width: 56px;
-  height: 26px;
-  
-}
-.svgWhatsapp{
-  width:56px;
-  height:26px;
-  
-}
-.svgEmail{
-  width:56px;
-  height: 26px;
-}
-.telefone{
-display: block;    
-}
-.whatsapp{
- display: block;
-
-}
-.email{
-display: block;
-
-}
- .imagens{
-  margin-left: -13.5rem;
-  padding-top: 4rem;
-  gap: 3rem;
-  width: 1px;
-  position: absolute;
-
- }
-
-  .div_bandeiras{
-      width: 64rem;
-  
-  }
-  
-  .secao1{
-     width: 0.5rem;
-     margin-left:30rem;
-  }
-
-  .sub_bandeiras{
-      width:36vh;
-      margin-left:-12rem;
-    
-  }
-
-.menuCelular{
-display: flex;
-margin-top: -2rem;
-margin-left: -2rem;
-}
-   .toggle-btn{
-      display: block;
-      width: 2rem;
-      height: 2rem;
-      margin-left: -0.5rem;
-   }
-
-   ul{
-      display:none;
-   }
-
-   ul.show{
-       display:block;
-       margin-left: -20rem;
-       margin-top: -2rem;
-       display: none;
-   }
-    
-   .botoes{
-      border:none;
-      display: flex;
-      align-items: center;
-      justify-content: right;
-   }
-
-   .link_text_botoes{
-         color:black;
-         
-   }
-  .css_grid{
-      grid-template-columns: 11rem 11rem 11rem ;
-      height: 60%;
-      margin-top: 70px;
-      margin-left:1rem;
-  }
-  .css_grid a{
-      padding: 5px;
-      font-size: 10px;
-      text-align: center;
-  }
-  .texto_img_secao5{
-      font-size:0.6rem;
-  }
-  .conteudosecao5{
-      gap:3rem;
-  }
-  .empresa{
-      width: 120px;
-      height: 120px;
-  }
-  .pessoas{
-      width: 180px;
-      height: 100px;
-      margin-top: 76px;
-
-  }
-.div_fotos_funcionarios{
-  margin-top:-75px;
-}
-
-.imgFuncionario{
-  width: 140px;
-  height: 140px;
-}
-.divsecao2{
-  gap: 40px;
-}
-.imgSecao2{
-  width: 25px;
-  height: 25px;
-}
-.elementosecao2{
- font-size: 1rem;
-}
-.texto_secao3{
-font-size:0.9rem;
-width: 50rem;
-}
-.textosecao5{
-font-size:24px;
-}
-.svgSecao5{
-width: 30px ;
-height: 30px ;
-}
-.conteudosecao5{
-flex-direction: column;
-}
-.secao5{
-height: 540px;
-}
-.div_empresas{
-flex-direction: column;
-}
-.secao6{
-height: 700px;
-}
-.img_empresa1{
-width: 60px;
-height: 60px;
-padding-left: 18px;
-}
-.img_empresa2{
-width:75px ;
-height:75px ;
-padding-left: 10px;
-}
-.img_empresa3{
-width: 89px;
-height: 26px;
-}
-.img_empresa4{
-width: 89px;
-height: 31px;
-}
-.img_empresa5{
-width: 89px;
-height: 66px;
-}
-.div_fotos_funcionarios {
-flex-direction: column;
-margin-left: 3rem;
-}
-.secao7 {
-height: 1000px;
-}
-.nome_pessoas{
-width: 140px;
-}
-.h2_secao7{
-font-size: 15px;
-}
-
-.texto_copyright{
-margin-left: 35%;
-}
-.produtossec8{
-flex-direction: column;
-margin-left: 4rem;
-}
-.secao8{
-height: 1010px;
-}
-.produto{
-margin-left: -4rem;
-
-}
-.imgSecao8{
-width: 190px;
-height: 190px;
-}
-footer{
-height: 200px;
-}
-.divEndereco{
-margin-left: -39rem;
-}
-.text_h2_endereco{
-font-size: 10px;
-}
-.footer_endereco{
-font-size:7px;
-}
-.imgRedeSocial{
-width: 10px;
-}
-.rede_social{
-margin-left: -5rem;
-}
-.div_img_redesocial{
-width: 2rem;
-height: 2rem;
-}
-  
-}
-
-@media only screen and (max-width: 512px) and (min-width: 511px)  {
-  body{
-    width: 47%;
-    touch-action: pan-y;
-  }
-  .textosecao2{
-      font-size:1rem;
-      margin-top: 1rem;
-  }
-
-  .aumentartamanho_h6{
-      font-size: 0.7rem ;
-      width: 5rem;
-  }
-  .img_selletiva_mobile{
-      width: 95px;
-      height: 40px;
-        margin-top: -6rem;    
-        margin-left: 14rem;
-        position: absolute;
-    
-  }
-.svgTelefone{
-  width: 56px;
-  height: 26px;
-  
-}
-.svgWhatsapp{
-  width:56px;
-  height:26px;
-  
-}
-.svgEmail{
-  width:56px;
-  height: 26px;
-}
-.telefone{
-display: block;    
-}
-.whatsapp{
- display: block;
-
-}
-.email{
-display: block;
-
-}
- .imagens{
-  margin-left: -32rem;
-  padding-top: 6rem;
-  gap: 3rem;
-  width: -70px;
-  position: absolute;
-
- }
-
-  .div_bandeiras{
-      width: 64rem;
-  
-  }
-  
-  .secao1{
-     width: 0.5rem;
-     margin-left:30rem;
-  }
-
-  .sub_bandeiras{
-      width:36vh;
-      margin-left:-15rem;
-    
-  }
-
-.menuCelular{
-display: flex;
-margin-top: -2rem;
-margin-left: -2rem;
-}
-   .toggle-btn{
-      display: block;
-      width: 2rem;
-      height: 2rem;
-      margin-left: -0.5rem;
-   }
-
-   ul{
-      display:none;
-   }
-
-   ul.show{
-       display:block;
-       margin-left: -20rem;
-       margin-top: -2rem;
-       display: none;
-   }
-    
-   .botoes{
-      border:none;
-      display: flex;
-      align-items: center;
-      justify-content: right;
-   }
-
-   .link_text_botoes{
-         color:black;
-         
-   }
-  .css_grid{
-      grid-template-columns: 10rem 10rem 10rem ;
-      height: 60%;
-      margin-top: 70px;
-      margin-left:-0.8rem;
-  }
-  .css_grid a{
-      padding: 5px;
-      font-size: 10px;
-      text-align: center;
-  }
-  .texto_img_secao5{
-      font-size:0.6rem;
-  }
-  .conteudosecao5{
-      gap:3rem;
-  }
-  .empresa{
-      width: 120px;
-      height: 120px;
-  }
-  .pessoas{
-      width: 180px;
-      height: 100px;
-      margin-top: 76px;
-
-  }
-.div_fotos_funcionarios{
-  margin-top:-75px;
-}
-
-.imgFuncionario{
-  width: 140px;
-  height: 140px;
-}
-.divsecao2{
-  gap: 40px;
-}
-.imgSecao2{
-  width: 25px;
-  height: 25px;
-}
-.elementosecao2{
- font-size: 1rem;
-}
-.texto_secao3{
-font-size:0.7rem;
-width: 50rem;
-}
-.textosecao5{
-font-size:24px;
-}
-.svgSecao5{
-width: 30px ;
-height: 30px ;
-}
-.conteudosecao5{
-flex-direction: column;
-}
-.secao5{
-height: 540px;
-}
-.div_empresas{
-flex-direction: column;
-}
-.secao6{
-height: 700px;
-}
-.img_empresa1{
-width: 60px;
-height: 60px;
-padding-left: 18px;
-}
-.img_empresa2{
-width:75px ;
-height:75px ;
-padding-left: 10px;
-}
-.img_empresa3{
-width: 89px;
-height: 26px;
-}
-.img_empresa4{
-width: 89px;
-height: 31px;
-}
-.img_empresa5{
-width: 89px;
-height: 66px;
-}
-.div_fotos_funcionarios {
-flex-direction: column;
-margin-left: 3rem;
-}
-.secao7 {
-height: 1000px;
-}
-.nome_pessoas{
-width: 140px;
-}
-.h2_secao7{
-font-size: 15px;
-}
-
-.texto_copyright{
-margin-left: 35%;
-}
-.produtossec8{
-flex-direction: column;
-margin-left: 3.5rem;
-}
-.secao8{
-height: 1010px;
-}
-.produto{
-margin-left: -4rem;
-
-}
-.imgSecao8{
-width: 190px;
-height: 190px;
-}
-footer{
-height: 200px;
-}
-.divEndereco{
-margin-left: -39rem;
-}
-.text_h2_endereco{
-font-size: 10px;
-}
-.footer_endereco{
-font-size:7px;
-}
-.imgRedeSocial{
-width: 10px;
-}
-.rede_social{
-margin-left: -5rem;
-}
-.div_img_redesocial{
-width: 2rem;
-height: 2rem;
-}
-  
-}
-
-@media only screen and (max-width: 384px) and (min-width: 383px)  {
-  body{
-      width: 47%;
-      touch-action: pan-y;
-    }
-    .textosecao2{
-        font-size:1rem;
-        margin-top: 1rem;
-    }
-    .texto_secao3{
-        font-size:1.1rem;
-    }
-    .aumentartamanho_h6{
-        font-size: 0.5rem ;
-    }
-    .img_selletiva_mobile{
-        width: 95px;
-        height: 40px;
-        margin-top: -6rem;    
-        margin-left: 8.5rem;
-        position: absolute;
-    }
-.svgTelefone{
+  .svgTelefone {
     width: 28px;
     height: 18px;
-}
-.svgWhatsapp{
-    width:28px;
-    height:18px;
-}
-.svgEmail{
-    width:28px;
-    height: 18px;
-}
-    .telefone{
-        width: 70px;
-        height: 50px;
-        
-    }
-    .whatsapp{
-        width: 75px;
-        height: 50px;
+  }
 
-    }
-    .email{
-        width: 160px;
-        height: 48px;
-        
-    }
-   .imagens{
+  .svgWhatsapp {
+    width: 28px;
+    height: 18px;
+  }
+
+  .svgEmail {
+    width: 28px;
+    height: 18px;
+  }
+
+  .telefone {
+    width: 70px;
+    height: 50px;
+
+  }
+
+  .whatsapp {
+    width: 75px;
+    height: 50px;
+
+  }
+
+  .email {
+    width: 160px;
+    height: 48px;
+
+  }
+
+  .imagens {
     margin-left: -20.5rem;
     padding-top: 6.5rem;
     gap: 1rem;
     width: 1px;
     position: absolute;
 
-   }
-
-    .div_bandeiras{
-        width: 43rem;
-    
-    }
-    
-    .secao1{
-       width: 0.5rem;
-       margin-left:30rem;
-    }
-
-    .bandeiras{
-        width:3vh;
-        margin-left:-4rem;
-    }
-.menuCelular{
-display: flex;
- margin-top: -2rem;
-margin-left: -2rem;
-}
-     .toggle-btn{
-        display: block;
-        width: 2rem;
-        height: 2rem;
-        margin-left: -0.5rem;
-     }
-
-     ul{
-        display:none;
-     }
-
-     ul.show{
-         display:block;
-         margin-left: -20rem;
-         margin-top: -2rem;
-         display: none;
-     }
-      
-     .botoes{
-        border:none;
-        display: flex;
-        align-items: center;
-        justify-content: right;
-     }
-
-     .link_text_botoes{
-           color:black;
-           
-     }
-    .css_grid{
-        grid-template-columns: 7.5rem 7.5rem 7.5rem ;
-        height: 60%;
-        margin-top: 70px;
-        margin-left:-0.85rem;
-    }
-    .css_grid a{
-        padding: 5px;
-        font-size: 10px;
-        text-align: center;
-    }
-    .texto_img_secao5{
-        font-size:0.6rem;
-    }
-    .conteudosecao5{
-        gap:3rem;
-    }
-    .empresa{
-        width: 120px;
-        height: 120px;
-    }
-    .pessoas{
-        width: 180px;
-        height: 100px;
-        margin-top: 76px;
-
-    }
-  .div_fotos_funcionarios{
-    margin-top:-75px;
   }
 
-.imgFuncionario{
+  .div_bandeiras {
+    width: 43rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -85rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 8rem 8rem 8rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: -0.85rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
     width: 140px;
     height: 140px;
-}
- .divsecao2{
+  }
+
+  .divsecao2 {
     gap: 40px;
- }
- .imgSecao2{
+  }
+
+  .imgSecao2 {
     width: 40px;
     height: 40px;
- }
- .elementosecao2{
-   font-size: 18px;
- }
-.texto_secao3{
-font-size:0.9rem;
-width: 22rem;
+  }
+
+  .elementosecao2 {
+    font-size: 18px;
+  }
+
+  .texto_secao3 {
+    font-size: 0.9rem;
+    width: 22rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .butao_voltar_ao_topo {
+    display: none;
+
+  }
+
+  .ji {
+    display: none;
+  }
+
+  .texto_copyright {
+    margin-left: 24%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
 }
-.textosecao5{
- font-size:24px;
-}
-.svgSecao5{
-width: 30px ;
-height: 30px ;
-}
-.conteudosecao5{
-flex-direction: column;
-}
-.secao5{
-height: 540px;
-}
-.div_empresas{
-flex-direction: column;
-}
-.secao6{
-height: 700px;
-}
-.img_empresa1{
-width: 60px;
-height: 60px;
-padding-left: 18px;
-}
-.img_empresa2{
-width:75px ;
-height:75px ;
-padding-left: 10px;
-}
-.img_empresa3{
-width: 89px;
-height: 26px;
-}
-.img_empresa4{
-width: 89px;
-height: 31px;
-}
-.img_empresa5{
-width: 89px;
-height: 66px;
-}
-.div_fotos_funcionarios {
-flex-direction: column;
-margin-left: 3rem;
-}
-.secao7 {
-height: 1000px;
-}
-.nome_pessoas{
-width: 140px;
-}
-.h2_secao7{
-font-size: 15px;
-}
-.butao_voltar_ao_topo{
-display: none;
+
+@media only screen and (max-width: 405px) and (min-width: 404px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+    margin-top: -6rem;
+    margin-left: 8.5rem;
+    position: absolute;
+  }
+
+  .svgTelefone {
+    width: 28px;
+    height: 18px;
+  }
+
+  .svgWhatsapp {
+    width: 28px;
+    height: 18px;
+  }
+
+  .svgEmail {
+    width: 28px;
+    height: 18px;
+  }
+
+  .telefone {
+    width: 70px;
+    height: 50px;
+
+  }
+
+  .whatsapp {
+    width: 75px;
+    height: 50px;
+
+  }
+
+  .email {
+    width: 160px;
+    height: 48px;
+
+  }
+
+  .imagens {
+    margin-left: -20.5rem;
+    padding-top: 6.5rem;
+    gap: 1rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 43rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -78rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 8rem 8rem 8rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: -0.85rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .elementosecao2 {
+    font-size: 18px;
+  }
+
+  .texto_secao3 {
+    font-size: 0.9rem;
+    width: 22rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .butao_voltar_ao_topo {
+    display: none;
+
+  }
+
+  .ji {
+    display: none;
+  }
+
+  .texto_copyright {
+    margin-left: 24%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
 
 }
-.ji{
-display: none;
-}
-.texto_copyright{
-margin-left: 24%;
-}
-.produtossec8{
-flex-direction: column;
-}
-.secao8{
-height: 1010px;
-}
-.produto{
-margin-left: -5.5rem;
+
+@media only screen and (max-width: 400px) and (min-width: 399px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+    margin-top: -6rem;
+    margin-left: 8.5rem;
+    position: absolute;
+  }
+
+  .svgTelefone {
+    width: 28px;
+    height: 18px;
+  }
+
+  .svgWhatsapp {
+    width: 28px;
+    height: 18px;
+  }
+
+  .svgEmail {
+    width: 28px;
+    height: 18px;
+  }
+
+  .telefone {
+    width: 70px;
+    height: 50px;
+
+  }
+
+  .whatsapp {
+    width: 75px;
+    height: 50px;
+
+  }
+
+  .email {
+    width: 160px;
+    height: 48px;
+
+  }
+
+  .imagens {
+    margin-left: -20.5rem;
+    padding-top: 6.5rem;
+    gap: 1rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 43rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -92rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 8rem 8rem 8rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: -0.85rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .elementosecao2 {
+    font-size: 18px;
+  }
+
+  .texto_secao3 {
+    font-size: 0.9rem;
+    width: 22rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .butao_voltar_ao_topo {
+    display: none;
+
+  }
+
+  .ji {
+    display: none;
+  }
+
+  .texto_copyright {
+    margin-left: 24%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
 
 }
-.imgSecao8{
-width: 190px;
-height: 190px;
-}
-footer{
-height: 200px;
-}
-.divEndereco{
-margin-left: -39rem;
-}
-.text_h2_endereco{
-font-size: 10px;
-}
-.footer_endereco{
-font-size:7px;
-}
-.imgRedeSocial{
-width: 10px;
-}
-.rede_social{
-margin-left: -5rem;
-}
-.div_img_redesocial{
-width: 2rem;
-height: 2rem;
-}
+
+
+@media only screen and (max-width: 360px) and (min-width: 359px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+    margin-top: -6rem;
+    margin-left: 8rem;
+    position: absolute;
+  }
+
+  .svgTelefone {
+    width: 16px;
+    height: 11px;
+  }
+
+  .svgWhatsapp {
+    width: 16px;
+    height: 11px;
+  }
+
+  .svgEmail {
+    width: 16px;
+    height: 11px;
+  }
+
+  .telefone {
+    width: 70px;
+    height: 50px;
+
+  }
+
+  .whatsapp {
+    width: 75px;
+    height: 50px;
+
+  }
+
+  .email {
+    width: 160px;
+    height: 48px;
+
+  }
+
+  .imagens {
+    margin-left: -21rem;
+    padding-top: 6.5rem;
+    gap: 1rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 43rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -73rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 7rem 7rem 7rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: -0.85rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .elementosecao2 {
+    font-size: 18px;
+  }
+
+  .texto_secao3 {
+    font-size: 0.9rem;
+    width: 20rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .butao_voltar_ao_topo {
+    display: none;
+
+  }
+
+  .ji {
+    display: none;
+  }
+
+  .texto_copyright {
+    margin-left: 24%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+    margin-left: -1.8rem;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
 
 }
 
-@media only screen and (max-width: 308px) and (min-width: 306px)  {
-  body{
-      width: 47%;
-      touch-action: pan-y;
-    }
-    .textosecao2{
-        font-size:1rem;
-        margin-top: 1rem;
-    }
-    .texto_secao3{
-        font-size:1.1rem;
-    }
-    .aumentartamanho_h6{
-        font-size: 0.5rem ;
-    }
-    .img_selletiva_mobile{
-        width: 95px;
-        height: 40px;
-        margin-top: -6rem;    
-        margin-left: 6.3rem;
-        position: absolute;
-    }
-.svgTelefone{
+@media only screen and (max-width: 317px) and (min-width: 316px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+    margin-top: -6rem;
+    margin-left: 6.3rem;
+    position: absolute;
+  }
+
+  .svgTelefone {
     width: 28px;
     height: 18px;
     display: none;
-}
-.svgWhatsapp{
-    width:28px;
-    height:18px;
-    display: none;
-}
-.svgEmail{
-    width:28px;
+  }
+
+  .svgWhatsapp {
+    width: 28px;
     height: 18px;
     display: none;
-}
-    .telefone{
-        width: 70px;
-        height: 50px;
-        
-    }
-    .whatsapp{
-        width: 75px;
-        height: 50px;
+  }
 
-    }
-    .email{
-        width: 160px;
-        height: 48px;
+  .svgEmail {
+    width: 28px;
+    height: 18px;
+    display: none;
+  }
 
-    }
-   .imagens{
+  .telefone {
+    width: 70px;
+    height: 50px;
+
+  }
+
+  .whatsapp {
+    width: 75px;
+    height: 50px;
+
+  }
+
+  .email {
+    width: 160px;
+    height: 48px;
+
+  }
+
+  .imagens {
     margin-left: -23rem;
     padding-top: 6.5rem;
     gap: 1rem;
     width: 1px;
     position: absolute;
 
-   }
+  }
 
-    .div_bandeiras{
-        width: 43rem;
-    
-    }
-    
-    .secao1{
-       width: 0.5rem;
-       margin-left:30rem;
-    }
-
-    .bandeiras{
-        width:3vh;
-        margin-left:-2rem;
-    }
-.menuCelular{
-display: flex;
- margin-top: -2rem;
-margin-left: -2rem;
-}
-     .toggle-btn{
-        display: block;
-        width: 2rem;
-        height: 2rem;
-        margin-left: -0.5rem;
-     }
-
-     ul{
-        display:none;
-     }
-
-     ul.show{
-         display:block;
-         margin-left: -20rem;
-         margin-top: -2rem;
-         display: none;
-     }
-      
-     .botoes{
-        border:none;
-        display: flex;
-        align-items: center;
-        justify-content: right;
-     }
-
-     .link_text_botoes{
-           color:black;
-           
-     }
-    .css_grid{
-        grid-template-columns: 6rem 6rem 6rem ;
-        height: 60%;
-        margin-top: 70px;
-        margin-left:-0.85rem;
-    }
-    .css_grid a{
-        padding: 5px;
-        font-size: 10px;
-        text-align: center;
-    }
-    .texto_img_secao5{
-        font-size:0.6rem;
-    }
-    .conteudosecao5{
-        gap:3rem;
-    }
-    .empresa{
-        width: 120px;
-        height: 120px;
-    }
-    .pessoas{
-        width: 180px;
-        height: 100px;
-        margin-top: 76px;
-        margin-left: -1rem;
-
-    }
-  .div_fotos_funcionarios{
-    margin-top:-75px;
+  .div_bandeiras {
+    width: 43rem;
 
   }
 
-.imgFuncionario{
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -83rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 6rem 6rem 6rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: -0.85rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
     width: 140px;
     height: 140px;
-}
- .divsecao2{
+  }
+
+  .divsecao2 {
     gap: 40px;
- }
- .imgSecao2{
+  }
+
+  .imgSecao2 {
     width: 25px;
     height: 25px;
- }
- .elementosecao2{
-   font-size: 1rem;
- }
-.texto_secao3{
-font-size:0.8rem;
-width: 17rem;
-}
-.textosecao5{
- font-size:1rem;
-}
-.svgSecao5{
-width: 30px ;
-height: 30px ;
-}
-.conteudosecao5{
-flex-direction: column;
-}
-.secao5{
-height: 540px;
-}
-.div_empresas{
-flex-direction: column;
-}
-.secao6{
-height: 700px;
-}
-.img_empresa1{
-width: 60px;
-height: 60px;
-padding-left: 18px;
-}
-.img_empresa2{
-width:75px ;
-height:75px ;
-padding-left: 10px;
-}
-.img_empresa3{
-width: 89px;
-height: 26px;
-}
-.img_empresa4{
-width: 89px;
-height: 31px;
-}
-.img_empresa5{
-width: 89px;
-height: 66px;
-}
-.div_fotos_funcionarios {
-flex-direction: column;
-margin-left: 3rem;
-}
-.secao7 {
-height: 1000px;
-}
-.nome_pessoas{
-width: 140px;
-}
-.h2_secao7{
-font-size: 15px;
-}
-.butao_voltar_ao_topo{
-display: none;
+  }
+
+  .elementosecao2 {
+    font-size: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 0.8rem;
+    width: 17rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .butao_voltar_ao_topo {
+    display: none;
+
+  }
+
+  .ji {
+    display: none;
+  }
+
+  .texto_copyright {
+    margin-left: 19%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+    margin-left: -3rem;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
 
 }
-.ji{
-display: none;
-}
-.texto_copyright{
-margin-left: 19%;
-}
-.produtossec8{
-flex-direction: column;
-margin-left: -3rem;
-}
-.secao8{
-height: 1010px;
-}
-.produto{
-margin-left: -4rem;
+
+
+@media only screen and (max-width: 1024px) and (min-width: 1023px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.7rem;
+    width: 5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+
+
+
+  }
+
+  .svgTelefone {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgWhatsapp {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgEmail {
+    width: 56px;
+    height: 26px;
+  }
+
+  .imagens {
+    margin-left: 1rem;
+    padding-top: 2.9rem;
+    gap: 3rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 64rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+    height: 5rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -21rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 11rem 11rem 11rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: 1rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 25px;
+    height: 25px;
+  }
+
+  .elementosecao2 {
+    font-size: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 0.8rem;
+    width: 30rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .texto_copyright {
+    margin-left: 40%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
 
 }
-.imgSecao8{
-width: 190px;
-height: 190px;
+
+@media only screen and (max-width: 688px) and (min-width: 687px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.7rem;
+    width: 5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+
+
+
+  }
+
+  .svgTelefone {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgWhatsapp {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgEmail {
+    width: 56px;
+    height: 26px;
+  }
+
+  .telefone {
+    display: block;
+  }
+
+  .whatsapp {
+    display: block;
+
+  }
+
+  .email {
+    display: block;
+
+  }
+
+  .imagens {
+    margin-left: -12rem;
+    padding-top: 6.5rem;
+    gap: 3rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 64rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -99rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 11rem 11rem 11rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: 1rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 25px;
+    height: 25px;
+  }
+
+  .elementosecao2 {
+    font-size: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 0.8rem;
+    width: 30rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .texto_copyright {
+    margin-left: 35%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
+
 }
-footer{
-height: 200px;
+
+
+@media only screen and (max-width: 391px) and (min-width: 389px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+    margin-top: -6rem;
+    margin-left: 8.5rem;
+    position: absolute;
+  }
+
+  .svgTelefone {
+    width: 28px;
+    height: 18px;
+  }
+
+  .svgWhatsapp {
+    width: 28px;
+    height: 18px;
+  }
+
+  .svgEmail {
+    width: 28px;
+    height: 18px;
+  }
+
+  .telefone {
+    width: 70px;
+    height: 50px;
+
+  }
+
+  .whatsapp {
+    width: 75px;
+    height: 50px;
+
+  }
+
+  .email {
+    width: 160px;
+    height: 48px;
+
+  }
+
+  .imagens {
+    margin-left: -20.5rem;
+    padding-top: 6.5rem;
+    gap: 1rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 43rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -63rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 8rem 8rem 8rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: -0.85rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .elementosecao2 {
+    font-size: 18px;
+  }
+
+  .texto_secao3 {
+    font-size: 0.9rem;
+    width: 22rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .butao_voltar_ao_topo {
+    display: none;
+
+  }
+
+  .ji {
+    display: none;
+  }
+
+  .texto_copyright {
+    margin-left: 24%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
+
 }
-.divEndereco{
-margin-left: -39rem;
+
+@media only screen and (max-width: 1229px) and (min-width: 1228px) {
+
+  .texto_secao3 {
+    font-size: 1.8rem;
+  }
+
+  .butao_voltar_ao_topo {
+    width: 85px;
+    height: 65px;
+  }
+
+  .ji {
+    width: 3rem;
+    height: 3rem;
+    margin-top: -12px;
+  }
+
+  .imgFuncionario {
+    width: 220px;
+    height: 220px;
+  }
 }
-.text_h2_endereco{
-font-size: 10px;
+
+@media only screen and (max-width: 878px) and (min-width: 876px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.7rem;
+    width: 5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+  }
+
+  .svgTelefone {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgWhatsapp {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgEmail {
+    width: 56px;
+    height: 26px;
+  }
+
+  .telefone {
+    display: block;
+  }
+
+  .whatsapp {
+    display: block;
+
+  }
+
+  .email {
+    display: block;
+
+  }
+
+  .imagens {
+    margin-left: -5rem;
+    padding-top: 4rem;
+    gap: 3rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 64rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .sub_bandeiras {
+    width: 36vh;
+    margin-left: -8rem;
+
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 11rem 11rem 11rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: 1rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 25px;
+    height: 25px;
+  }
+
+  .elementosecao2 {
+    font-size: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.2rem;
+    width: 50rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .texto_copyright {
+    margin-left: 35%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
+
 }
-.footer_endereco{
-font-size:7px;
+
+@media only screen and (max-width: 768px) and (min-width: 767px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.7rem;
+    width: 5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+  }
+
+  .svgTelefone {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgWhatsapp {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgEmail {
+    width: 56px;
+    height: 26px;
+  }
+
+  .telefone {
+    display: block;
+  }
+
+  .whatsapp {
+    display: block;
+
+  }
+
+  .email {
+    display: block;
+
+  }
+
+  .imagens {
+    margin-left: -9rem;
+    padding-top: 4rem;
+    gap: 3rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 64rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .sub_bandeiras {
+    width: 36vh;
+    margin-left: -10rem;
+
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 11rem 11rem 11rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: 1rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 25px;
+    height: 25px;
+  }
+
+  .elementosecao2 {
+    font-size: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.2rem;
+    width: 50rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .texto_copyright {
+    margin-left: 35%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+    margin-left: 4rem;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
+
 }
-.imgRedeSocial{
-width: 10px;
+
+@media only screen and (max-width: 615px) and (min-width: 613px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.7rem;
+    width: 5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+  }
+
+  .svgTelefone {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgWhatsapp {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgEmail {
+    width: 56px;
+    height: 26px;
+  }
+
+  .telefone {
+    display: block;
+  }
+
+  .whatsapp {
+    display: block;
+
+  }
+
+  .email {
+    display: block;
+
+  }
+
+  .imagens {
+    margin-left: -13.5rem;
+    padding-top: 4rem;
+    gap: 3rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 64rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .sub_bandeiras {
+    width: 36vh;
+    margin-left: -12rem;
+
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 11rem 11rem 11rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: 1rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 25px;
+    height: 25px;
+  }
+
+  .elementosecao2 {
+    font-size: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 0.9rem;
+    width: 50rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .texto_copyright {
+    margin-left: 35%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+    margin-left: 4rem;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
+
 }
-.rede_social{
-margin-left: -5rem;
+
+@media only screen and (max-width: 512px) and (min-width: 511px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.7rem;
+    width: 5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+    margin-top: -6rem;
+    margin-left: 14rem;
+    position: absolute;
+
+  }
+
+  .svgTelefone {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgWhatsapp {
+    width: 56px;
+    height: 26px;
+
+  }
+
+  .svgEmail {
+    width: 56px;
+    height: 26px;
+  }
+
+  .telefone {
+    display: block;
+  }
+
+  .whatsapp {
+    display: block;
+
+  }
+
+  .email {
+    display: block;
+
+  }
+
+  .imagens {
+    margin-left: -32rem;
+    padding-top: 6rem;
+    gap: 3rem;
+    width: -70px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 64rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .sub_bandeiras {
+    width: 36vh;
+    margin-left: -15rem;
+
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 10rem 10rem 10rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: -0.8rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 25px;
+    height: 25px;
+  }
+
+  .elementosecao2 {
+    font-size: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 0.7rem;
+    width: 50rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .texto_copyright {
+    margin-left: 35%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+    margin-left: 3.5rem;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
+
 }
-.div_img_redesocial{
-width: 2rem;
-height: 2rem;
+
+@media only screen and (max-width: 384px) and (min-width: 383px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+    margin-top: -6rem;
+    margin-left: 8.5rem;
+    position: absolute;
+  }
+
+  .svgTelefone {
+    width: 28px;
+    height: 18px;
+  }
+
+  .svgWhatsapp {
+    width: 28px;
+    height: 18px;
+  }
+
+  .svgEmail {
+    width: 28px;
+    height: 18px;
+  }
+
+  .telefone {
+    width: 70px;
+    height: 50px;
+
+  }
+
+  .whatsapp {
+    width: 75px;
+    height: 50px;
+
+  }
+
+  .email {
+    width: 160px;
+    height: 48px;
+
+  }
+
+  .imagens {
+    margin-left: -20.5rem;
+    padding-top: 6.5rem;
+    gap: 1rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 43rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -4rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 7.5rem 7.5rem 7.5rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: -0.85rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .elementosecao2 {
+    font-size: 18px;
+  }
+
+  .texto_secao3 {
+    font-size: 0.9rem;
+    width: 22rem;
+  }
+
+  .textosecao5 {
+    font-size: 24px;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .butao_voltar_ao_topo {
+    display: none;
+
+  }
+
+  .ji {
+    display: none;
+  }
+
+  .texto_copyright {
+    margin-left: 24%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -5.5rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
+
 }
+
+@media only screen and (max-width: 308px) and (min-width: 306px) {
+  body {
+    width: 47%;
+    touch-action: pan-y;
+  }
+
+  .textosecao2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 1.1rem;
+  }
+
+  .aumentartamanho_h6 {
+    font-size: 0.5rem;
+  }
+
+  .img_selletiva_mobile {
+    width: 95px;
+    height: 40px;
+    margin-top: -6rem;
+    margin-left: 6.3rem;
+    position: absolute;
+  }
+
+  .svgTelefone {
+    width: 28px;
+    height: 18px;
+    display: none;
+  }
+
+  .svgWhatsapp {
+    width: 28px;
+    height: 18px;
+    display: none;
+  }
+
+  .svgEmail {
+    width: 28px;
+    height: 18px;
+    display: none;
+  }
+
+  .telefone {
+    width: 70px;
+    height: 50px;
+
+  }
+
+  .whatsapp {
+    width: 75px;
+    height: 50px;
+
+  }
+
+  .email {
+    width: 160px;
+    height: 48px;
+
+  }
+
+  .imagens {
+    margin-left: -23rem;
+    padding-top: 6.5rem;
+    gap: 1rem;
+    width: 1px;
+    position: absolute;
+
+  }
+
+  .div_bandeiras {
+    width: 43rem;
+
+  }
+
+  .secao1 {
+    width: 0.5rem;
+    margin-left: 30rem;
+  }
+
+  .bandeiras {
+    width: 3vh;
+    margin-left: -2rem;
+  }
+
+  .menuCelular {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .toggle-btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.5rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    display: none;
+  }
+
+  .botoes {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .link_text_botoes {
+    color: black;
+
+  }
+
+  .css_grid {
+    grid-template-columns: 6rem 6rem 6rem;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: -0.85rem;
+  }
+
+  .css_grid a {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .texto_img_secao5 {
+    font-size: 0.6rem;
+  }
+
+  .conteudosecao5 {
+    gap: 3rem;
+  }
+
+  .empresa {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pessoas {
+    width: 180px;
+    height: 100px;
+    margin-top: 76px;
+    margin-left: -1rem;
+
+  }
+
+  .div_fotos_funcionarios {
+    margin-top: -75px;
+
+  }
+
+  .imgFuncionario {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divsecao2 {
+    gap: 40px;
+  }
+
+  .imgSecao2 {
+    width: 25px;
+    height: 25px;
+  }
+
+  .elementosecao2 {
+    font-size: 1rem;
+  }
+
+  .texto_secao3 {
+    font-size: 0.8rem;
+    width: 17rem;
+  }
+
+  .textosecao5 {
+    font-size: 1rem;
+  }
+
+  .svgSecao5 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .conteudosecao5 {
+    flex-direction: column;
+  }
+
+  .secao5 {
+    height: 540px;
+  }
+
+  .div_empresas {
+    flex-direction: column;
+  }
+
+  .secao6 {
+    height: 700px;
+  }
+
+  .img_empresa1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 18px;
+  }
+
+  .img_empresa2 {
+    width: 75px;
+    height: 75px;
+    padding-left: 10px;
+  }
+
+  .img_empresa3 {
+    width: 89px;
+    height: 26px;
+  }
+
+  .img_empresa4 {
+    width: 89px;
+    height: 31px;
+  }
+
+  .img_empresa5 {
+    width: 89px;
+    height: 66px;
+  }
+
+  .div_fotos_funcionarios {
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .secao7 {
+    height: 1000px;
+  }
+
+  .nome_pessoas {
+    width: 140px;
+  }
+
+  .h2_secao7 {
+    font-size: 15px;
+  }
+
+  .butao_voltar_ao_topo {
+    display: none;
+
+  }
+
+  .ji {
+    display: none;
+  }
+
+  .texto_copyright {
+    margin-left: 19%;
+  }
+
+  .produtossec8 {
+    flex-direction: column;
+    margin-left: -3rem;
+  }
+
+  .secao8 {
+    height: 1010px;
+  }
+
+  .produto {
+    margin-left: -4rem;
+
+  }
+
+  .imgSecao8 {
+    width: 190px;
+    height: 190px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  .divEndereco {
+    margin-left: -39rem;
+  }
+
+  .text_h2_endereco {
+    font-size: 10px;
+  }
+
+  .footer_endereco {
+    font-size: 7px;
+  }
+
+  .imgRedeSocial {
+    width: 10px;
+  }
+
+  .rede_social {
+    margin-left: -5rem;
+  }
+
+  .div_img_redesocial {
+    width: 2rem;
+    height: 2rem;
+  }
 
 }
