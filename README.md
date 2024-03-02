@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 ## Site responsivo
->>>>>>> 5933c72fb2aae3fa8abf2712acfa00272e9a2ed3
 
 Esse projeto que eu fiz tem o objetivo de deixar ele mais dinâmico fazendo com que esse site se adpte a várias telas de diferentes tamanhos que no site original não se adptava quando mudava as dimensões horizontais e verticais da tela ,fazendo com que aparecesse erros de posicionamento dos elementos html do site original.
 
