@@ -2733,7 +2733,10 @@ hr {
     width: 28px;
     height: 18px;
   }
-
+  .noHover {
+    pointer-events: none;
+  }
+  
   .telefone {
     width: 70px;
     height: 50px;
