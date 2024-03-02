@@ -8,7 +8,7 @@ Você também pode ver meu projeto atrabes do "Codepen.io" para ver clique [aqui
 
 <div align="center" display="flex">
    
-  <img src="https://github.com/marcosv00/home_selletiva/assets/128433130/0a1f13e9-bd5f-409a-ab0b-09650ff71879" width="700px">
+  <img src="https://github.com/marcosv00/home_selletiva/assets/128433130/0a1f13e9-bd5f-409a-ab0b-09650ff71879" width="300px">
   <img src="https://github.com/marcosv00/home_selletiva/assets/128433130/7193d3d5-bae4-49b6-9a90-88674ec4a590" width="200px">
      
 </div>
